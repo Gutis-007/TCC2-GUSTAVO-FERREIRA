@@ -9,7 +9,7 @@ O problema de pesquisa pode ser formulado da seguinte maneira: como desenvolvedo
 
 Com base nesse problema, o levantamento foi orientado pelas seguintes questões investigativas:
 \begin{enumerate}
-	\item Como iniciantes e profissionais experientes avaliam produtividade, facilidade de aprendizagem e rapidez de prototipagem?
+	\item Como o grupo iniciante/intermediário e o grupo experiente avaliam produtividade, facilidade de aprendizagem e rapidez de prototipagem?
 	\item Como os grupos avaliam detecção precoce de erros, legibilidade, manutenibilidade e padronização?
 	\item Que dificuldades são percebidas na configuração, migração e integração com bibliotecas externas?
 	\item Em que medida a experiência em projetos de maior escala influencia a preferência pelo TypeScript?
@@ -26,9 +26,16 @@ As afirmações foram organizadas em quatro blocos analíticos. O Bloco A avalio
 
 Essa estrutura procura operacionalizar os principais construtos do referencial. A detecção precoce representa o benefício esperado da verificação estática; manutenibilidade e refatoração se relacionam ao custo de evolução; migração e configuração representam o investimento inicial; e integração com bibliotecas representa a confiabilidade dos contratos externos. A inclusão de processo, equipe e colaboração é importante porque a literatura mostra que a dívida técnica também envolve pessoas e decisões organizacionais, não apenas o código \cite{gomes2023debt,coutinho2024agile}.
 
+\subsection{Equivalência entre os formulários}
+
+Embora tenham sido utilizados dois formulários, os instrumentos mantiveram as mesmas dimensões, itens e escalas para permitir a comparação entre os grupos. As diferenças entre as versões limitaram-se à apresentação das instruções e à adequação de exemplos ao perfil do respondente. Assim, os itens dos blocos A, B, C e D foram tratados como correspondentes nos dois questionários. Essa equivalência é necessária para que diferenças nas médias sejam interpretadas como diferenças de percepção, e não como efeito de perguntas distintas.
+
+\subsection{Construção e verificação do instrumento}
+
+Os itens foram elaborados a partir dos temas recorrentes no referencial teórico e nos objetivos da pesquisa: tipagem, detecção de erros, produtividade percebida, manutenibilidade, migração, integração com bibliotecas, ferramentas e colaboração. A organização em blocos foi revisada para reduzir sobreposição entre dimensões e facilitar a interpretação dos resultados. Não foi realizada validação psicométrica formal nem estimativa de confiabilidade interna; por isso, os resultados são tratados como descrição exploratória das respostas ao instrumento, e não como uma escala validada para medir construtos em qualquer população.
 \section{População, amostragem e grupos de análise}
 
-O primeiro grupo-alvo foi composto por \textbf{desenvolvedores profissionais experientes}, atuantes no mercado de desenvolvimento de software. A amostra foi selecionada por conveniência, utilizando redes de contatos profissionais, como o LinkedIn, e comunidades online de desenvolvedores. Para manter a coerência com a segmentação apresentada nos resultados, foram considerados experientes os participantes com quatro ou mais anos de experiência em desenvolvimento front-end. O grupo é relevante para compreender percepções formadas em projetos comerciais, de longa duração e com equipes colaborativas, nos quais manutenibilidade, escalabilidade e governança assumem maior importância.
+O primeiro grupo-alvo foi composto por \textbf{desenvolvedores profissionais experientes}, atuantes no mercado de desenvolvimento de software. A amostra foi selecionada por conveniência, utilizando redes de contatos profissionais, como o LinkedIn, e comunidades online de desenvolvedores. Para manter a coerência com a segmentação apresentada nos resultados, foram considerados experientes, exclusivamente como categoria operacional desta pesquisa, os participantes com quatro ou mais anos de experiência declarada em desenvolvimento front-end. O grupo é relevante para compreender percepções formadas em projetos comerciais, de longa duração e com equipes colaborativas, nos quais manutenibilidade, escalabilidade e governança assumem maior importância.
 
 O segundo grupo foi formado por \textbf{desenvolvedores iniciantes e intermediários}, majoritariamente estudantes do curso de Bacharelado em Sistemas de Informação do Instituto Federal da Bahia (IFBA), Campus Feira de Santana, e de outras instituições. Para a comparação principal, foram agrupados participantes com até três anos de experiência. A seleção também foi por conveniência, por meio de convites em grupos de estudo e canais acadêmicos. Esse grupo representa participantes ainda próximos do processo de aprendizagem e, por isso, é especialmente adequado para investigar curva de aprendizado, simplicidade inicial e percepção do custo de configuração \cite{shrestha2022}.
 
@@ -38,7 +45,7 @@ A amostra final foi composta por 23 respondentes: 14 no grupo iniciante/intermed
 
 Após a divulgação dos formulários, as respostas foram exportadas para planilhas eletrônicas e submetidas a conferência. Foram verificadas duplicidades, respostas incompletas e a correspondência entre as respostas e o grupo de experiência informado. Os dados foram então codificados numericamente, preservando a direção da escala: valores maiores representam maior concordância com a afirmação apresentada. As respostas abertas foram mantidas em texto para a etapa qualitativa.
 
-Não se pretendeu produzir uma estimativa probabilística da população de desenvolvedores. A amostragem por conveniência permite explorar tendências e contrastes dentro do grupo alcançado, mas exige cautela na generalização. Por esse motivo, os resultados são interpretados como evidências descritivas sobre as percepções dos respondentes, e não como prova de que todos os iniciantes ou experientes se comportam da mesma maneira.
+Não se pretendeu produzir uma estimativa probabilística da população de desenvolvedores. A amostragem por conveniência permite explorar tendências e contrastes dentro do grupo alcançado, mas exige cautela na generalização. Por esse motivo, os resultados são interpretados como evidências descritivas sobre as percepções dos respondentes, e não como prova de que todos os participantes com menor ou maior experiência se comportam da mesma maneira.
 
 \section{Plano de análise quantitativa}
 
@@ -51,6 +58,8 @@ Valores positivos indicam maior concordância entre experientes; valores negativ
 
 As comparações foram organizadas por dimensão, e não apenas por item isolado. Essa decisão reduz o risco de interpretar uma resposta específica fora do contexto e permite relacionar os dados aos construtos teóricos: produtividade, qualidade, integração e preferência. As diferenças foram discutidas em conjunto com o tamanho dos grupos, a experiência em projetos grandes e os relatos qualitativos. Não foram feitas afirmações causais a partir das médias, pois o desenho transversal e a amostragem não permitem concluir que a experiência provoque determinada preferência.
 
+Não foram realizados testes de hipótese ou inferência estatística. Essa decisão decorre do caráter descritivo e exploratório do estudo, do uso de amostragem por conveniência e do tamanho reduzido dos grupos, com 14 participantes no grupo iniciante/intermediário e 9 no grupo experiente. Portanto, o valor de $\Delta$ é apresentado como diferença descritiva entre as respostas observadas, e não como evidência de diferença estatisticamente significativa na população.
+
 \section{Plano de análise qualitativa}
 
 As respostas abertas foram examinadas por análise temática categorial. Inicialmente, foram identificadas unidades de sentido relacionadas a benefícios, custos, contexto de uso, integração, manutenção e execução. Em seguida, os relatos foram agrupados em quatro eixos: blindagem de contratos e APIs; refatoração em larga escala; complexidade inicial e fricção com o ecossistema; e fronteira entre compilação e execução.
@@ -59,11 +68,13 @@ Os eixos não foram tratados como categorias mutuamente exclusivas de defeitos. 
 
 \section{Validade, limitações e aspectos éticos}
 
-Há ameaças à validade interna, externa e de construção. A validade interna é limitada porque as respostas são autorreferidas e podem refletir preferência pessoal, familiaridade com ferramentas ou experiências específicas. A validade externa é limitada pela amostragem por conveniência e pelo número reduzido de participantes. A validade de construção exige cautela porque termos como produtividade, segurança e manutenibilidade são complexos e foram medidos por percepção, não por métricas de repositórios ou experimentos controlados.
+Há ameaças à validade interna, externa e de construção. A validade interna é limitada porque as respostas são autorreferidas e podem refletir preferência pessoal, familiaridade com ferramentas ou experiências específicas. A validade externa é limitada pela amostragem por conveniência e pelo número reduzido de participantes. A validade de construção exige cautela porque termos como produtividade, segurança de tipos e manutenibilidade são complexos e foram medidos por percepção, não por métricas de repositórios ou experimentos controlados.
 
-Para reduzir esses riscos, foram utilizadas perguntas organizadas por dimensões, comparação entre grupos, médias acompanhadas de medianas e desvios-padrão e triangulação com respostas abertas. A literatura também foi usada para interpretar os resultados sem reduzir qualidade a uma única variável. Estudos de mineração de repositórios, como os que investigam opções do compilador e categorias de bugs, servem como referência externa, mas não substituem a análise do survey, pois empregam unidades de análise e objetivos diferentes.
+Para reduzir esses riscos, foram utilizadas perguntas organizadas por dimensões, comparação entre grupos, médias acompanhadas de medianas e desvios-padrão e integração dos resultados fechados com os relatos abertos. A literatura também foi usada para interpretar os resultados sem reduzir qualidade a uma única variável. Estudos de mineração de repositórios, como os que investigam opções do compilador e categorias de bugs, servem como referência externa, mas não substituem a análise do survey, pois empregam unidades de análise e objetivos diferentes.
 
 No plano ético, a participação foi voluntária e os dados foram analisados de forma agregada. Os relatos apresentados no capítulo de resultados são identificados por códigos de respondentes, sem exposição de nomes ou informações pessoais desnecessárias. O uso de depoimentos teve finalidade acadêmica e foi restrito ao conteúdo relacionado ao problema de pesquisa.
+
+Além do tamanho reduzido, os grupos apresentam distribuição desigual, o que recomenda cautela na comparação direta. A familiaridade prévia com uma das linguagens pode influenciar as respostas e produzir viés de preferência. Também não foram coletadas métricas objetivas de tempo de desenvolvimento, densidade de bugs, complexidade, rotatividade de código ou custo de migração. Assim, afirmações sobre produtividade, qualidade e manutenção representam percepções declaradas, e não medições experimentais ou observacionais do desempenho dos projetos.
 
 \section{Síntese metodológica}
 

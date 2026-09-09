@@ -15,7 +15,7 @@ Os resultados empíricos obtidos contribuíram para responder aos objetivos espe
     
     \item \textbf{Identificação dos benefícios e desafios do TypeScript}: Na amostra, os participantes associaram o TypeScript à manutenibilidade a longo prazo (média de $4,44$ entre experientes), à detecção precoce de erros (média global de $4,17$), à padronização em equipes grandes (média de $4,30$) e ao apoio à refatoração. Também foram relatados custos de configuração, atrito com bibliotecas externas e necessidade de disciplina técnica contínua.
     
-    \item \textbf{Avaliação do impacto do nível de experiência}: Observou-se uma diferença de percepção entre os grupos. Iniciantes valorizaram a flexibilidade e a prototipagem rápida do JavaScript (média de $4,29$), enquanto experientes relataram maior produtividade com TypeScript (média de $4,22$, contra $2,93$ dos iniciantes) e maior preferência por seu uso em novos projetos (média de $4,56$). Como a amostra foi pequena e não probabilística, esses resultados não devem ser generalizados sem novas pesquisas.
+    \item \textbf{Diferenças associadas ao nível de experiência}: Observou-se uma diferença de percepção entre os grupos. O grupo iniciante/intermediário valorizou a flexibilidade e a prototipagem rápida do JavaScript (média de $4,29$), enquanto o grupo experiente relatou maior produtividade com TypeScript (média de $4,22$, contra $2,93$) e maior preferência por seu uso em novos projetos (média de $4,56$). Como a amostra foi pequena e não probabilística, esses resultados não devem ser generalizados sem novas pesquisas.
 \end{enumerate}
 
 \section{Contribuições e Recomendações Práticas}
@@ -41,8 +41,9 @@ A partir dos achados desta pesquisa, formulam-se diretrizes aplicadas destinadas
 
 Como em qualquer estudo empírico, algumas limitações metodológicas devem ser consideradas na interpretação dos resultados:
 \begin{enumerate}
-    \item \textbf{Tamanho da Amostra}: A pesquisa baseou-se em uma amostra de $N = 23$ participantes, selecionada por conveniência em comunidades de tecnologia e no ambiente acadêmico do IFBA. Embora a amostra seja diversificada e tenha possibilitado análises comparativas consistentes, generalizações estatísticas para a totalidade da comunidade global de desenvolvedores devem ser realizadas com parcimônia.
-    \item \textbf{Natureza Autorreferida}: Os dados fundamentam-se nas percepções e autoavaliações dos próprios desenvolvedores, refletindo experiências subjetivas que podem ser influenciadas por preferências pessoais e tendências de mercado.
+    \item \textbf{Tamanho e composição da amostra}: A pesquisa baseou-se em uma amostra de $N = 23$ participantes, selecionada por conveniência em comunidades de tecnologia e no ambiente acadêmico do IFBA. Os grupos também foram desiguais, com 14 participantes no grupo iniciante/intermediário e 9 no grupo experiente. Por isso, generalizações estatísticas para a comunidade de desenvolvedores não são justificadas.
+    \item \textbf{Natureza autorreferida e familiaridade}: Os dados fundamentam-se nas percepções e autoavaliações dos próprios desenvolvedores, refletindo experiências subjetivas que podem ser influenciadas por preferências pessoais, familiaridade tecnológica e tendências de mercado.
+    \item \textbf{Ausência de métricas objetivas}: Não foram medidos tempo real de desenvolvimento, densidade de bugs, complexidade, rotatividade de código ou custo de migração. Portanto, as conclusões sobre produtividade, qualidade e manutenção referem-se a percepções declaradas.
 \end{enumerate}
 
 \section{Sugestões para Trabalhos Futuros}
@@ -51,8 +52,8 @@ Como em qualquer estudo empírico, algumas limitações metodológicas devem ser
 Para dar continuidade e aprofundamento à linha de pesquisa explorada neste trabalho de conclusão de curso, sugerem-se as seguintes investigações:
 \begin{enumerate}
     \item \textbf{Estudo de Mineração de Repositórios}: Realizar uma análise quantitativa automatizada em larga escala de repositórios públicos (GitHub/GitLab) de empresas brasileiras, extraindo métricas concretas de densidade de bugs, complexidade ciclomática e rotatividade de código (\textit{code churn}) em projetos JS e TS.
-    \item \textbf{Impacto de Assistentes de Inteligência Artificial}: Investigar como o surgimento de ferramentas de inteligência artificial generativa e autocompletar inteligente (como GitHub Copilot e modelos baseados em LLM) impacta a curva de aprendizado de linguagens fortemente tipadas como o TypeScript.
-    \item \textbf{Estudo Longitudinal de Migração}: Acompanhar equipes de desenvolvimento durante o ciclo completo de migração de uma base legada em JavaScript para TypeScript, mensurando o tempo despendido, os tipos de erros encontrados e o impacto na velocidade de entrega (\textit{lead time}).
+    \item \textbf{Efeitos de assistentes de inteligência artificial}: Investigar como ferramentas de inteligência artificial generativa e autocompletar inteligente (como GitHub Copilot e modelos baseados em LLM) se relacionam com a curva de aprendizado de linguagens com tipagem estática, como o TypeScript.
+    \item \textbf{Estudo longitudinal de migração}: Acompanhar equipes de desenvolvimento durante o ciclo completo de migração de uma base legada em JavaScript para TypeScript, mensurando o tempo despendido, os tipos de erros encontrados e possíveis variações na velocidade de entrega (\textit{lead time}).
 \end{enumerate}
 
 Em conclusão, os resultados indicam que o TypeScript é percebido favoravelmente por profissionais experientes e em contextos de manutenção e colaboração, mas seus benefícios dependem de configuração, contratos confiáveis, validações de runtime e práticas de equipe. A escolha entre JavaScript e TypeScript deve ser compreendida como uma decisão contextual, na qual ganhos potenciais de longo prazo são avaliados em conjunto com o investimento inicial e as limitações do ecossistema.

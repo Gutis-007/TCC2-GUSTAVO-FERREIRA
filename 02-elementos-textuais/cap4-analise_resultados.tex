@@ -34,7 +34,7 @@ Conforme evidencia a Figura \ref{fig:demografia}(A), os respondentes distribuem-
 Para fins de análise comparativa neste estudo, foram estabelecidos dois grupos principais:
 \begin{enumerate}
     \item \textbf{Grupo de Desenvolvedores Iniciantes e Intermediários ($N = 14$, 60,9\%)}: composto por profissionais e estudantes em fase de formação com até 3 anos de experiência em desenvolvimento front-end.
-    \item \textbf{Grupo de Profissionais Experientes ($N = 9$, 39,1\%)}: formado por desenvolvedores com 4 ou mais anos de experiência comprovada no mercado de tecnologia, incluindo seniores e especialistas técnicos.
+    \item \textbf{Grupo de Profissionais Experientes ($N = 9$, 39,1\%)}: formado por participantes com 4 ou mais anos de experiência declarada em desenvolvimento front-end. Neste estudo, ``experiente'' é uma categoria operacional e não equivale necessariamente a um cargo de senioridade.
 \end{enumerate}
 
 Adicionalmente, a Figura \ref{fig:demografia}(B) demonstra que 12 participantes (52,2\%) possuem experiência sólida em projetos de grande escala, enquanto 11 participantes (47,8\%) atuaram predominantemente em projetos individuais, de menor porte ou em contexto estritamente acadêmico. Esse equilíbrio amostral é particularmente valioso para avaliar se as dores e os benefícios apregoados pela adoção do TypeScript dependem da escala organizacional do software.
@@ -51,7 +51,7 @@ A Figura \ref{fig:proficiencia} apresenta a comparação entre os níveis declar
     \fonte{Dados da pesquisa aplicada pelo autor (2025).}
 \end{figure}
 
-Os dados revelam que o domínio de JavaScript é consolidado na totalidade da amostra, com 60,8\% dos participantes posicionando-se nos níveis \textit{Avançado} (47,8\%) ou \textit{Especialista} (13,0\%), e nenhum respondente declarando desconhecimento da linguagem. Em relação ao TypeScript, observa-se uma distribuição similar no topo da pirâmide (52,2\% entre avançados e especialistas), porém com uma fração mais expressiva de iniciantes (26,1\%) e um participante (4,3\%) que declarou nunca ter utilizado a ferramenta. Esse panorama reflete com precisão a dinâmica descrita por \cite{mororo2024}, em que o JavaScript atua como fundação prévia obrigatória para a assimilação subsequente do TypeScript.
+A autoavaliação de proficiência em JavaScript foi elevada na amostra, com 60,8\% dos participantes posicionando-se nos níveis \textit{Avançado} (47,8\%) ou \textit{Especialista} (13,0\%), e nenhum respondente declarando desconhecimento da linguagem. Em relação ao TypeScript, observa-se uma distribuição similar no topo da escala (52,2\% entre avançados e especialistas), porém com uma fração mais expressiva de iniciantes (26,1\%) e um participante (4,3\%) que declarou nunca ter utilizado a linguagem. Esse panorama é compatível com a literatura que descreve o JavaScript como experiência prévia frequente na aprendizagem do TypeScript \cite{mororo2024}, mas não permite afirmar que essa experiência seja obrigatória.
 
 ---
 
@@ -102,7 +102,7 @@ A representação gráfica comparativa dessas percepções é ilustrada na Figur
     \fonte{Dados da pesquisa aplicada pelo autor (2025).}
 \end{figure}
 
-A análise dos resultados do Bloco A evidencia conclusões fundamentais sobre o impacto da maturidade profissional na percepção de produtividade:
+A análise dos resultados do Bloco A evidencia diferenças associadas ao nível de experiência na percepção de produtividade:
 
 \begin{enumerate}
     \item \textbf{Diferença de percepção de produtividade ($\Delta = +1,29$)}: Enquanto os desenvolvedores iniciantes mantêm uma postura neutra ou reticente quanto aos ganhos de produtividade proporcionados pelo TypeScript (média de $2,93$), os profissionais experientes manifestam maior concordância com essa afirmação (média de $4,22$). Na amostra estudada, essa percepção pode estar relacionada ao uso de autocompletar, refatoração e detecção de inconsistências, mas o desenho da pesquisa não mede produtividade objetiva.
@@ -168,7 +168,7 @@ Os resultados do Bloco B reforçam aspectos cruciais da literatura de Engenharia
 \begin{enumerate}
     \item \textbf{Manutenibilidade em longo prazo ($\Delta = +1,01$)}: A assertiva de que bases de código estruturadas em TypeScript são mais sustentáveis recebeu avaliação destacada dos profissionais experientes (média de $4,44$). Ao segmentar a amostra por participação em grandes projetos, a média foi de $4,42$ entre participantes com essa experiência, contra $3,18$ entre os demais. Esses dados sugerem uma associação entre vivência em sistemas maiores e valorização da manutenibilidade, mas não permitem estimar retorno sobre investimento nem afirmar crescimento causal.
     
-    \item \textbf{Origem de Bugs por Ausência de Tipagem Estática}: A premissa de que a tipagem dinâmica do JavaScript é um vetor prolífico de defeitos em tempo de execução obteve alta concordância em ambos os grupos ($4,00$ entre iniciantes e $4,44$ entre experientes; média geral de $4,17$). Tal constatação alinha-se às observações de \cite{bogner2022} e \cite{george2020}, ratificando que a manipulação de estruturas de dados sem contratos explícitos gera vulnerabilidades funcionais recorrentes.
+    \item \textbf{Percepção sobre bugs e tipagem estática}: A afirmação de que a tipagem dinâmica do JavaScript pode favorecer defeitos em tempo de execução obteve alta concordância em ambos os grupos ($4,00$ entre iniciantes e $4,44$ entre experientes; média geral de $4,17$). Esse resultado é compatível com as discussões de \cite{bogner2022} e \cite{george2020}, mas descreve a percepção dos participantes e não uma contagem observada de defeitos.
     
     \item \textbf{Desmistificação da Sobrecarga de Verbosidade}: A hipótese de que o TypeScript tornaria o código excessivamente prolixo ou ilegível foi amplamente rejeitada pelos participantes (média global de $2,39$; $2,11$ entre experientes e $2,00$ entre os atuantes em grandes projetos). Em contrapartida, a legibilidade do código em TypeScript foi avaliada positivamente ($4,04$ geral e $4,33$ para experientes), indicando que os desenvolvedores encaram as anotações de tipo não como ruído, mas como documentação viva acoplada ao código-fonte.
     
@@ -327,18 +327,18 @@ O Respondente 5 (7 a 10 anos de experiência) ilustrou esse mecanismo de forma p
 \textit{``A atualização de um union type no typescript foi suficiente para gerar erros em todos os pontos que precisavam de atualização no código. Com javascript, seria necessária uma busca manual dos pontos de atualização, já que os erros não seriam manifestados.''} (Respondente 5, Especialista em JS/TS).
 \end{quote}
 
-Essa garantia mecânica elimina o risco de regressões silenciosas decorrentes de alterações em modelos de dados centrais, aspecto que frequentemente inviabiliza refatorações ambiciosas em projetos legados em JavaScript.
+Essa verificação pode reduzir o risco de determinadas regressões silenciosas relacionadas a alterações em modelos de dados centrais, mas não substitui testes, validações de runtime ou revisão da lógica de negócio.
 
 \subsection{Eixo 3: Complexidade Inicial e Fricção com o Ecossistema Externo}
 
-Em contrapartida às vantagens de longo prazo, os participantes foram unânimes em apontar os custos de partida associados ao TypeScript: aumento do tempo de configuração de ambiente (\textit{toolchain}), lentidão inicial para modelar interfaces complexas e atrito com bibliotecas que não disponibilizam definições de tipos adequadas.
+Em contrapartida às vantagens de longo prazo, os relatos analisados apontaram de forma recorrente custos de partida associados ao TypeScript: aumento da complexidade de configuração do ambiente (\textit{toolchain}), esforço inicial para modelar interfaces complexas e atrito com bibliotecas que não disponibilizam definições de tipos adequadas.
 
 O Respondente 12 pontuou essa relação de \textit{trade-off}:
 \begin{quote}
 \textit{``Em um projeto utilizando Vue.js com Nuxt 3 e TypeScript, trabalhei na implementação de formulários complexos [...]. Houve desvantagens no aumento da complexidade inicial, principalmente ao lidar com tipagens mais avançadas e integração com bibliotecas externas que nem sempre possuem tipagem bem definida, exigindo ajustes manuais ou uso pontual de any. Mesmo assim, o ganho em segurança e escalabilidade compensou o custo inicial.''} (Respondente 12, 4 a 6 anos de experiência).
 \end{quote}
 
-Esse relato corrobora o achado quantitativo de que desenvolvedores seniores reconhecem a dificuldade de migração e configuração inicial, embora julguem que os benefícios posteriores em manutenibilidade compensem amplamente o custo despendido.
+Esse relato é compatível com o achado quantitativo de que profissionais experientes reconhecem dificuldades de migração e configuração inicial, embora avaliem favoravelmente os benefícios posteriores de manutenibilidade.
 
 \subsection{Eixo 4: A Fronteira entre Compilação e Execução (Runtime vs Compile-time)}
 
@@ -347,7 +347,7 @@ Um aspecto técnico de extrema relevância, apontado com lucidez pelo Respondent
 \textit{``TypeScript por apresentar tipagem deixa o codigo muito mais legível e organizado, além de prevenir erros [...]. Porém o TS ele so vai validar e ver errors durante o desenvolvimento, em runtime ele ainda vai aceitar uma String em uma variável declarada como Number, porque por baixo ele vai rodar em JS. então você tem que ficar atento para validar e tratar os dados que está mexendo.''} (Respondente 6, 1 a 3 anos de experiência).
 \end{quote}
 
-Essa observação adverte para a falsa sensação de segurança que o TypeScript pode induzir caso o desenvolvedor presuma que a verificação estática elimina a necessidade de validações em tempo de execução para dados externos (como entradas de formulários e respostas HTTP não confiáveis).
+Essa observação adverte para a falsa sensação de segurança de tipos que o TypeScript pode induzir caso o desenvolvedor presuma que a verificação estática elimina a necessidade de validações em tempo de execução para dados externos, como entradas de formulários e respostas HTTP não confiáveis.
 
 ---
 
