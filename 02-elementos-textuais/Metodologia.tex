@@ -1,13 +1,71 @@
 \chapter{Metodologia}
 \label{chap:metodologia}
 
-Para atingir os objetivos propostos neste trabalho, notadamente a investigação das percepções e dos fatores que influenciam a adoção de JavaScript e TypeScript entre diferentes perfis de desenvolvedores, optou-se por uma abordagem de pesquisa quantitativa, caracterizada como um estudo de levantamento (survey). Este método é particularmente eficaz para coletar dados padronizados de uma amostra representativa de uma população, permitindo a análise de tendências, padrões e correlações, conforme discutido em metodologias de pesquisa na ciência da informação e computação \cite{zimmermann2010, pedrycz1998}. A escolha por um levantamento se justifica pela necessidade de capturar uma variedade de perspectivas de forma estruturada, possibilitando uma comparação direta entre os grupos de interesse.
+Para atingir os objetivos propostos neste trabalho, notadamente a investigação das percepções e dos fatores que influenciam a adoção de JavaScript e TypeScript entre diferentes perfis de desenvolvedores, optou-se por uma abordagem de métodos mistos, com predominância quantitativa e complemento qualitativo. O estudo é caracterizado como uma pesquisa aplicada, de natureza descritiva e comparativa, realizada por meio de levantamento (	extit{survey}). O desenho quantitativo permite sintetizar respostas padronizadas, enquanto a análise qualitativa dos relatos abertos ajuda a explicar por que determinadas percepções aparecem nos dados. Essa combinação é coerente com o problema, pois a preferência tecnológica possui uma dimensão mensurável e outra relacionada às experiências de trabalho, manutenção e colaboração.
 
-O instrumento de coleta de dados consistiu em dois questionários distintos, elaborados e distribuídos por meio da plataforma Google Forms. A decisão de criar dois formulários separados foi estratégica, visando adequar a linguagem e o foco das perguntas ao nível de conhecimento e ao contexto de cada um dos públicos-alvo. Ambos os questionários foram estruturados com perguntas fechadas, utilizando escalas de Likert (por exemplo, de "discordo totalmente" a "concordo totalmente") e perguntas de múltipla escolha, para facilitar a análise estatística posterior e garantir a objetividade na coleta das percepções.
+\section{Problema de pesquisa e questões investigativas}
 
-O primeiro grupo-alvo foi composto por \textbf{desenvolvedores profissionais experientes}, atuantes no mercado de desenvolvimento de software. A amostra para este grupo foi selecionada por conveniência, utilizando redes de contatos profissionais, como o LinkedIn, e comunidades online de desenvolvedores. O critério para ser considerado "experiente" foi definido como possuir dois ou mais anos de experiência profissional comprovada no desenvolvimento front-end. Este grupo é fundamental para compreender as percepções sobre as linguagens em um contexto de projetos comerciais, de longa duração e com equipes colaborativas, onde questões como manutenibilidade e escalabilidade, frequentemente citadas na literatura \cite{makimov2022, george2020}, são de suma importância.
+O problema de pesquisa pode ser formulado da seguinte maneira: como desenvolvedores com diferentes níveis de experiência percebem os benefícios, custos e riscos associados ao uso de JavaScript e TypeScript no desenvolvimento front-end? A pergunta não pressupõe que uma tecnologia seja universalmente superior. Ela considera que prototipagem, aprendizagem, manutenção, refatoração, integração e governança podem produzir avaliações diferentes.
 
-O segundo grupo-alvo foi formado por \textbf{desenvolvedores iniciantes}, majoritariamente estudantes do curso de Bacharelado em Sistemas de Informação do Instituto Federal da Bahia (IFBA) - Campus Feira de Santana, e de outras instituições de ensino superior. A amostra também foi selecionada por conveniência, através de convites diretos em grupos de estudo e canais de comunicação acadêmicos. Este grupo representa a nova geração de desenvolvedores, cujas percepções são moldadas pelas primeiras experiências de aprendizado e pelo contato inicial com as tecnologias. A análise deste grupo é crucial para investigar fatores como a curva de aprendizado e a simplicidade inicial, que a literatura aponta como atrativos do JavaScript \cite{shrestha2022}.
+Com base nesse problema, o levantamento foi orientado pelas seguintes questões investigativas:
+\begin{enumerate}
+	\item Como iniciantes e profissionais experientes avaliam produtividade, facilidade de aprendizagem e rapidez de prototipagem?
+	\item Como os grupos avaliam detecção precoce de erros, legibilidade, manutenibilidade e padronização?
+	\item Que dificuldades são percebidas na configuração, migração e integração com bibliotecas externas?
+	\item Em que medida a experiência em projetos de maior escala influencia a preferência pelo TypeScript?
+	\item Que benefícios e limitações aparecem nos relatos abertos sobre uso real das duas tecnologias?
+\end{enumerate}
 
-A análise dos dados coletados será realizada de forma quantitativa e comparativa. As respostas dos dois formulários serão exportadas e tabuladas em planilhas eletrônicas. Serão aplicadas técnicas de estatística descritiva, como cálculo de médias, medianas e distribuições de frequência, para sumarizar as percepções de cada grupo. O foco da análise será comparar as respostas dos profissionais experientes com as dos iniciantes, identificando diferenças e semelhanças estatisticamente relevantes nas suas percepções sobre os benefícios e desafios do JavaScript e do TypeScript. Essa comparação direta permitirá validar ou refutar as hipóteses levantadas na fundamentação teórica, oferecendo uma contribuição empírica sobre como o nível de experiência influencia a preferência e a avaliação de tecnologias no desenvolvimento front-end.
+Essas questões dialogam com a literatura sobre dívida técnica. Uma decisão que reduz o esforço inicial pode produzir custos posteriores de manutenção, enquanto uma configuração mais rigorosa pode exigir investimento antecipado para reduzir problemas futuros \cite{alves2016debt}. Também dialogam com estudos que mostram que a percepção de gestores e desenvolvedores pode enfatizar dimensões diferentes da dívida técnica \cite{gomes2023debt}.
+
+\section{Instrumento de coleta}
+
+O instrumento de coleta de dados consistiu em dois questionários distintos, elaborados e distribuídos por meio da plataforma Google Forms. A decisão de criar dois formulários separados foi estratégica, visando adequar a linguagem e o foco das perguntas ao nível de conhecimento e ao contexto de cada público-alvo, sem alterar o núcleo das dimensões comparadas. Ambos os questionários foram estruturados com perguntas fechadas, utilizando escalas de Likert de cinco pontos, perguntas de múltipla escolha e uma questão aberta sobre experiências práticas.
+
+As afirmações foram organizadas em quatro blocos analíticos. O Bloco A avaliou produtividade, agilidade, curva de aprendizagem, prototipagem e detecção precoce de erros. O Bloco B avaliou legibilidade, manutenibilidade, origem de bugs, verbosidade e padronização. O Bloco C abordou compatibilidade com bibliotecas, ferramentas, frameworks, migração e projetos legados. O Bloco D examinou confiança, preferência para novos projetos, percepção de futuro e adequação a equipes grandes. A pergunta aberta foi incluída para identificar situações não previstas nas alternativas fechadas.
+
+Essa estrutura procura operacionalizar os principais construtos do referencial. A detecção precoce representa o benefício esperado da verificação estática; manutenibilidade e refatoração se relacionam ao custo de evolução; migração e configuração representam o investimento inicial; e integração com bibliotecas representa a confiabilidade dos contratos externos. A inclusão de processo, equipe e colaboração é importante porque a literatura mostra que a dívida técnica também envolve pessoas e decisões organizacionais, não apenas o código \cite{gomes2023debt,coutinho2024agile}.
+
+\section{População, amostragem e grupos de análise}
+
+O primeiro grupo-alvo foi composto por \textbf{desenvolvedores profissionais experientes}, atuantes no mercado de desenvolvimento de software. A amostra foi selecionada por conveniência, utilizando redes de contatos profissionais, como o LinkedIn, e comunidades online de desenvolvedores. Para manter a coerência com a segmentação apresentada nos resultados, foram considerados experientes os participantes com quatro ou mais anos de experiência em desenvolvimento front-end. O grupo é relevante para compreender percepções formadas em projetos comerciais, de longa duração e com equipes colaborativas, nos quais manutenibilidade, escalabilidade e governança assumem maior importância.
+
+O segundo grupo foi formado por \textbf{desenvolvedores iniciantes e intermediários}, majoritariamente estudantes do curso de Bacharelado em Sistemas de Informação do Instituto Federal da Bahia (IFBA), Campus Feira de Santana, e de outras instituições. Para a comparação principal, foram agrupados participantes com até três anos de experiência. A seleção também foi por conveniência, por meio de convites em grupos de estudo e canais acadêmicos. Esse grupo representa participantes ainda próximos do processo de aprendizagem e, por isso, é especialmente adequado para investigar curva de aprendizado, simplicidade inicial e percepção do custo de configuração \cite{shrestha2022}.
+
+A amostra final foi composta por 23 respondentes: 14 no grupo iniciante/intermediário e 9 no grupo experiente. Doze participantes declararam experiência em projetos de grande escala e 11 relataram atuação predominantemente em projetos individuais, acadêmicos ou de menor porte. Essa variável foi utilizada como dimensão complementar, pois a escala do sistema altera a relevância de contratos, refatorações e coordenação entre pessoas.
+
+\section{Procedimentos de coleta e tratamento dos dados}
+
+Após a divulgação dos formulários, as respostas foram exportadas para planilhas eletrônicas e submetidas a conferência. Foram verificadas duplicidades, respostas incompletas e a correspondência entre as respostas e o grupo de experiência informado. Os dados foram então codificados numericamente, preservando a direção da escala: valores maiores representam maior concordância com a afirmação apresentada. As respostas abertas foram mantidas em texto para a etapa qualitativa.
+
+Não se pretendeu produzir uma estimativa probabilística da população de desenvolvedores. A amostragem por conveniência permite explorar tendências e contrastes dentro do grupo alcançado, mas exige cautela na generalização. Por esse motivo, os resultados são interpretados como evidências descritivas sobre as percepções dos respondentes, e não como prova de que todos os iniciantes ou experientes se comportam da mesma maneira.
+
+\section{Plano de análise quantitativa}
+
+A análise quantitativa utilizou estatística descritiva, incluindo frequências absolutas e relativas, médias, medianas e desvios-padrão. Para cada item, foram calculadas as respostas da amostra total e dos dois grupos principais. A diferença perceptual entre experientes e iniciantes foi expressa por:
+\[
+\Delta = \overline{x}_{experientes} - \overline{x}_{iniciantes}.
+\]
+
+Valores positivos indicam maior concordância entre experientes; valores negativos indicam maior concordância entre iniciantes. A mediana foi apresentada junto à média porque a escala de Likert é ordinal e pode concentrar respostas em determinados pontos. O desvio-padrão foi usado como indicador descritivo de dispersão, permitindo distinguir consenso de respostas mais heterogêneas.
+
+As comparações foram organizadas por dimensão, e não apenas por item isolado. Essa decisão reduz o risco de interpretar uma resposta específica fora do contexto e permite relacionar os dados aos construtos teóricos: produtividade, qualidade, integração e preferência. As diferenças foram discutidas em conjunto com o tamanho dos grupos, a experiência em projetos grandes e os relatos qualitativos. Não foram feitas afirmações causais a partir das médias, pois o desenho transversal e a amostragem não permitem concluir que a experiência provoque determinada preferência.
+
+\section{Plano de análise qualitativa}
+
+As respostas abertas foram examinadas por análise temática categorial. Inicialmente, foram identificadas unidades de sentido relacionadas a benefícios, custos, contexto de uso, integração, manutenção e execução. Em seguida, os relatos foram agrupados em quatro eixos: blindagem de contratos e APIs; refatoração em larga escala; complexidade inicial e fricção com o ecossistema; e fronteira entre compilação e execução.
+
+Os eixos não foram tratados como categorias mutuamente exclusivas de defeitos. Um mesmo relato poderia mencionar tipagem, biblioteca externa e validação de runtime. A categorização teve como finalidade aproximar a experiência dos participantes dos conceitos encontrados na literatura, especialmente dívida técnica, contratos quebrados, toolchain e colaboração. A interpretação buscou preservar o sentido dos depoimentos e evitar transformar opiniões individuais em generalizações sobre toda a comunidade.
+
+\section{Validade, limitações e aspectos éticos}
+
+Há ameaças à validade interna, externa e de construção. A validade interna é limitada porque as respostas são autorreferidas e podem refletir preferência pessoal, familiaridade com ferramentas ou experiências específicas. A validade externa é limitada pela amostragem por conveniência e pelo número reduzido de participantes. A validade de construção exige cautela porque termos como produtividade, segurança e manutenibilidade são complexos e foram medidos por percepção, não por métricas de repositórios ou experimentos controlados.
+
+Para reduzir esses riscos, foram utilizadas perguntas organizadas por dimensões, comparação entre grupos, médias acompanhadas de medianas e desvios-padrão e triangulação com respostas abertas. A literatura também foi usada para interpretar os resultados sem reduzir qualidade a uma única variável. Estudos de mineração de repositórios, como os que investigam opções do compilador e categorias de bugs, servem como referência externa, mas não substituem a análise do survey, pois empregam unidades de análise e objetivos diferentes.
+
+No plano ético, a participação foi voluntária e os dados foram analisados de forma agregada. Os relatos apresentados no capítulo de resultados são identificados por códigos de respondentes, sem exposição de nomes ou informações pessoais desnecessárias. O uso de depoimentos teve finalidade acadêmica e foi restrito ao conteúdo relacionado ao problema de pesquisa.
+
+\section{Síntese metodológica}
+
+Em síntese, o método combina levantamento quantitativo, comparação entre níveis de experiência e interpretação qualitativa de relatos. Essa estratégia é adequada ao objetivo de investigar não apenas qual linguagem recebe maior preferência, mas quais razões sustentam essa preferência. A abordagem também permite compreender a escolha como decisão sociotécnica: a linguagem interage com configuração, contratos, arquitetura, processo, aprendizagem e colaboração. Dessa forma, os resultados podem ser confrontados com a literatura de qualidade e dívida técnica sem extrapolar o alcance da amostra.
 

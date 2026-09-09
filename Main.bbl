@@ -19,6 +19,72 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{alves2016debt}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=40b8eea066750561e978d341d9a5edaa}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={Nicolli\bibnamedelimb S.\bibnamedelimi R.},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c99d33ab2ee9687e46b08063840610d}{%
+           family={Mendes},
+           familyi={M\bibinitperiod},
+           given={Thiago\bibnamedelima S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d508e0ae15c4e3e1bb73bae542b173c7}{%
+           family={Mendonça},
+           familyi={M\bibinitperiod},
+           given={Manoel\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=712dd86882ea5a4b85c828bb550fa915}{%
+           family={Spínola},
+           familyi={S\bibinitperiod},
+           given={Rodrigo\bibnamedelima O.},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1825e0deaadc2ce4781f0e9487d7fe14}{%
+           family={Shull},
+           familyi={S\bibinitperiod},
+           given={Forrest},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=178877e6b5d2b2a69d7765c27edb07bf}{%
+           family={Seaman},
+           familyi={S\bibinitperiod},
+           given={Carolyn},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a76f89366f610183f7262ce03cbd4cfe}
+      \strng{fullhash}{4a27155670002810ff6bedbf25c1b911}
+      \strng{fullhashraw}{4a27155670002810ff6bedbf25c1b911}
+      \strng{bibnamehash}{a76f89366f610183f7262ce03cbd4cfe}
+      \strng{authorbibnamehash}{a76f89366f610183f7262ce03cbd4cfe}
+      \strng{authornamehash}{a76f89366f610183f7262ce03cbd4cfe}
+      \strng{authorfullhash}{4a27155670002810ff6bedbf25c1b911}
+      \strng{authorfullhashraw}{4a27155670002810ff6bedbf25c1b911}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information and Software Technology}
+      \field{title}{{Identification and management of technical debt: A systematic mapping study}}
+      \field{volume}{70}
+      \field{year}{2016}
+      \field{pages}{100\bibrangedash 121}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/j.infsof.2015.10.008
+      \endverb
+    \endentry
     \entry{bogner2022}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=6f9a37903012edd7915c3973ef8478b7}{%
@@ -61,6 +127,50 @@
       \endverb
       \verb{url}
       \verb https://dl.acm.org/doi/abs/10.1145/3524842.3528454
+      \endverb
+    \endentry
+    \entry{coutinho2024agile}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d678df92a52d96ced4ff1919cf6b4547}{%
+           family={Coutinho},
+           familyi={C\bibinitperiod},
+           given={Tamires\bibnamedelima L.},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e0bd419c009c247d0b7db0ab0b90e05}{%
+           family={Andrade},
+           familyi={A\bibinitperiod},
+           given={Leandro},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37e73bdf25472f96beef80954136ff31}{%
+           family={Santana},
+           familyi={S\bibinitperiod},
+           given={Cleber\bibnamedelimb Jorge\bibnamedelimb L.\bibnamedelimi de},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dde236f5df016e7ff479a5f842b19eba}
+      \strng{fullhash}{dde236f5df016e7ff479a5f842b19eba}
+      \strng{fullhashraw}{dde236f5df016e7ff479a5f842b19eba}
+      \strng{bibnamehash}{dde236f5df016e7ff479a5f842b19eba}
+      \strng{authorbibnamehash}{dde236f5df016e7ff479a5f842b19eba}
+      \strng{authornamehash}{dde236f5df016e7ff479a5f842b19eba}
+      \strng{authorfullhash}{dde236f5df016e7ff479a5f842b19eba}
+      \strng{authorfullhashraw}{dde236f5df016e7ff479a5f842b19eba}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Anais Estendidos do XIX Simpósio Brasileiro de Sistemas Colaborativos}
+      \field{title}{{Soluções e desafios: Métodos ágeis na pesquisa colaborativa entre universidade e indústria}}
+      \field{year}{2024}
+      \field{pages}{247\bibrangedash 251}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.5753/sbsc_estendido.2024.238884
       \endverb
     \endentry
     \entry{cristiani2021declarations}{inproceedings}{}{}
@@ -166,6 +276,70 @@
       \field{note}{Disponível em: \url{https://www.researchgate.net/publication/389688708_Adoption_Trends_Why_Developers_Are_Switching_from_JavaScript_to_TypeScript}}
       \field{title}{{Adoption trends: Why developers are switching from JavaScript to TypeScript}}
       \field{year}{2020}
+    \endentry
+    \entry{gomes2023debt}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2ca0314eebf5d8c66bae72701fe936bd}{%
+           family={Gomes},
+           familyi={G\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37bc94e2a9f4ff9ba1fdf24d47b115e5}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Eder},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9ddc747172718529c665bf2806a5f8d}{%
+           family={Freire},
+           familyi={F\bibinitperiod},
+           given={Sávio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7ac18a526deb9a0e057ee4d4322534c}{%
+           family={Mendes},
+           familyi={M\bibinitperiod},
+           given={Thiago\bibnamedelima Souto},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5640e54d060f64e0eec7de918e61a5a9}{%
+           family={Mendonça},
+           familyi={M\bibinitperiod},
+           given={Manoel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eaa704fc2f720e307aa7de7fd5398e97}{%
+           family={Spínola},
+           familyi={S\bibinitperiod},
+           given={Rodrigo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d70b75e5e1fc3eccc8ebcbd0ee2212a7}
+      \strng{fullhash}{a0510d2c7eed90090cf8b8cb73f500d2}
+      \strng{fullhashraw}{a0510d2c7eed90090cf8b8cb73f500d2}
+      \strng{bibnamehash}{d70b75e5e1fc3eccc8ebcbd0ee2212a7}
+      \strng{authorbibnamehash}{d70b75e5e1fc3eccc8ebcbd0ee2212a7}
+      \strng{authornamehash}{d70b75e5e1fc3eccc8ebcbd0ee2212a7}
+      \strng{authorfullhash}{a0510d2c7eed90090cf8b8cb73f500d2}
+      \strng{authorfullhashraw}{a0510d2c7eed90090cf8b8cb73f500d2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Software Engineering Research and Development}
+      \field{number}{1}
+      \field{title}{{Investigating the point of view of project management practitioners on technical debt: A study on Stack Exchange}}
+      \field{volume}{11}
+      \field{year}{2023}
+      \field{pages}{12:1\bibrangedash 12:15}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.5753/jserd.2023.3191
+      \endverb
     \endentry
     \entry{hoeflich2022scotty}{article}{}{}
       \name{author}{3}{}{%
@@ -376,46 +550,6 @@
       \verb https://repositorio.ufc.br/bitstream/riufc/78817/1/2024_tcc_jfmororo.pdf
       \endverb
     \endentry
-    \entry{pedrycz1998}{book}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=39780bf561ecea3f3fd53ead57031446}{%
-           family={Pedrycz},
-           familyi={P\bibinitperiod},
-           given={Witold},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a4d0725a10afe615dc2d0a2ad17808b6}{%
-           family={Gomide},
-           familyi={G\bibinitperiod},
-           given={Fernando},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Cambridge}%
-      }
-      \list{publisher}{1}{%
-        {MIT Press}%
-      }
-      \strng{namehash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
-      \strng{fullhash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
-      \strng{fullhashraw}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
-      \strng{bibnamehash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
-      \strng{authorbibnamehash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
-      \strng{authornamehash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
-      \strng{authorfullhash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
-      \strng{authorfullhashraw}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{An introduction to fuzzy sets: analysis and design}}
-      \field{year}{1998}
-      \field{pages}{465}
-      \range{pages}{1}
-    \endentry
     \entry{richards2017}{inproceedings}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=8a028b4bbe1417d29155a74d201c33d8}{%
@@ -461,6 +595,102 @@
       \endverb
       \verb{url}
       \verb https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/gao2017javascript.pdf
+      \endverb
+    \endentry
+    \entry{santana2019reactive}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=61c7ef76c13292b5eb0e200304ba6db5}{%
+           family={Santana},
+           familyi={S\bibinitperiod},
+           given={Cleber\bibnamedelimb Jorge\bibnamedelimb Lira\bibnamedelima de},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d504122b4428088527910527dc02577c}{%
+           family={Alencar},
+           familyi={A\bibinitperiod},
+           given={Brenno\bibnamedelimb de\bibnamedelima Mello},
+           giveni={B\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1716d581194307a01a934986108bad4}{%
+           family={Prazeres},
+           familyi={P\bibinitperiod},
+           given={Cássio\bibnamedelimb V.\bibnamedelimi Serafim},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f63f8075315eecf0aec7cf48faa10350}
+      \strng{fullhash}{f63f8075315eecf0aec7cf48faa10350}
+      \strng{fullhashraw}{f63f8075315eecf0aec7cf48faa10350}
+      \strng{bibnamehash}{f63f8075315eecf0aec7cf48faa10350}
+      \strng{authorbibnamehash}{f63f8075315eecf0aec7cf48faa10350}
+      \strng{authornamehash}{f63f8075315eecf0aec7cf48faa10350}
+      \strng{authorfullhash}{f63f8075315eecf0aec7cf48faa10350}
+      \strng{authorfullhashraw}{f63f8075315eecf0aec7cf48faa10350}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 34th ACM/SIGAPP Symposium on Applied Computing}
+      \field{title}{{Reactive microservices for the Internet of Things: A case study in fog computing}}
+      \field{year}{2019}
+      \field{pages}{1243\bibrangedash 1251}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1145/3297280.3297402
+      \endverb
+    \endentry
+    \entry{santana2020availability}{article}{}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=61c7ef76c13292b5eb0e200304ba6db5}{%
+           family={Santana},
+           familyi={S\bibinitperiod},
+           given={Cleber\bibnamedelimb Jorge\bibnamedelimb Lira\bibnamedelima de},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e0bd419c009c247d0b7db0ab0b90e05}{%
+           family={Andrade},
+           familyi={A\bibinitperiod},
+           given={Leandro},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36f2bc28cb20897daac98a532eb3db29}{%
+           family={Delicato},
+           familyi={D\bibinitperiod},
+           given={Flávia\bibnamedelima C.},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8d639d41a9f06428bd500c31dbd12e1}{%
+           family={Prazeres},
+           familyi={P\bibinitperiod},
+           given={Cássio\bibnamedelima V.},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e269a77acc22690feb04878ea4dbebd1}
+      \strng{fullhash}{8a68cae5156160b79f4e88c6b701a2dd}
+      \strng{fullhashraw}{8a68cae5156160b79f4e88c6b701a2dd}
+      \strng{bibnamehash}{e269a77acc22690feb04878ea4dbebd1}
+      \strng{authorbibnamehash}{e269a77acc22690feb04878ea4dbebd1}
+      \strng{authornamehash}{e269a77acc22690feb04878ea4dbebd1}
+      \strng{authorfullhash}{8a68cae5156160b79f4e88c6b701a2dd}
+      \strng{authorfullhashraw}{8a68cae5156160b79f4e88c6b701a2dd}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Service Oriented Computing and Applications}
+      \field{number}{2}
+      \field{title}{{Increasing the availability of IoT applications with reactive microservices}}
+      \field{volume}{15}
+      \field{year}{2021}
+      \field{pages}{109\bibrangedash 126}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/s11761-020-00308-8
       \endverb
     \endentry
     \entry{shrestha2022}{article}{}{}
@@ -690,39 +920,6 @@
       \verb{doi}
       \verb 10.5753/jserd.2026.5985
       \endverb
-    \endentry
-    \entry{zimmermann2010}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=09fef4f3ae04106ff27f06848ba5199e}{%
-           family={Zimmermann},
-           familyi={Z\bibinitperiod},
-           given={H.\bibnamedelimi J.},
-           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {John Wiley \& Sons}%
-      }
-      \strng{namehash}{09fef4f3ae04106ff27f06848ba5199e}
-      \strng{fullhash}{09fef4f3ae04106ff27f06848ba5199e}
-      \strng{fullhashraw}{09fef4f3ae04106ff27f06848ba5199e}
-      \strng{bibnamehash}{09fef4f3ae04106ff27f06848ba5199e}
-      \strng{authorbibnamehash}{09fef4f3ae04106ff27f06848ba5199e}
-      \strng{authornamehash}{09fef4f3ae04106ff27f06848ba5199e}
-      \strng{authorfullhash}{09fef4f3ae04106ff27f06848ba5199e}
-      \strng{authorfullhashraw}{09fef4f3ae04106ff27f06848ba5199e}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{Fuzzy set theory}}
-      \field{volume}{2}
-      \field{year}{2010}
     \endentry
   \enddatalist
 \endrefsection

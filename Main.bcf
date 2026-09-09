@@ -2491,21 +2491,34 @@
     <bcf:citekey order="20" intorder="1">cristiani2021declarations</bcf:citekey>
     <bcf:citekey order="21" intorder="1">shrestha2022</bcf:citekey>
     <bcf:citekey order="22" intorder="1">stackoverflow2023</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">zimmermann2010</bcf:citekey>
-    <bcf:citekey order="23" intorder="2">pedrycz1998</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">makimov2022</bcf:citekey>
-    <bcf:citekey order="24" intorder="2">george2020</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">shrestha2022</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">mororo2024</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">richards2017</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">makimov2022</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">bogner2022</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">george2020</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">richards2017</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">shrestha2022</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">bogner2022</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">george2020</bcf:citekey>
-    <bcf:citekey order="34" intorder="2">stackoverflow2023</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">alves2016debt</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">gomes2023debt</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">santana2020availability</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">santana2019reactive</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">feldthaus2014interfaces</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">hoeflich2022scotty</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">tang2026ecosystem</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">zandonotto2026compiler</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">jesse2022manytypes</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">jesse2023types</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">cristiani2021declarations</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">shrestha2022</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">coutinho2024agile</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">alves2016debt</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">gomes2023debt</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">gomes2023debt</bcf:citekey>
+    <bcf:citekey order="38" intorder="2">coutinho2024agile</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">shrestha2022</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">mororo2024</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">richards2017</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">makimov2022</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">bogner2022</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">george2020</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">richards2017</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">shrestha2022</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">bogner2022</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">george2020</bcf:citekey>
+    <bcf:citekey order="48" intorder="2">stackoverflow2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
