@@ -1,0 +1,58 @@
+\chapter{Considerações Finais}
+\label{chap:conclusao}
+
+Este trabalho teve como objetivo central investigar as percepções e os fatores que influenciam a adoção de JavaScript e TypeScript no desenvolvimento front-end, analisando comparativamente as diferenças entre desenvolvedores iniciantes e profissionais experientes. A coexistência dessas duas linguagens constitui um dos temas mais relevantes da engenharia de software contemporânea, moldando decisões arquiteturais, estratégias de contratação e práticas de governança de código em organizações de tecnologia de todos os portes.
+
+Por meio de uma abordagem metodológica quantitativa e qualitativa baseada em levantamento de dados (\textit{survey}), foi possível coletar e analisar as perspectivas de $23$ desenvolvedores com diferentes níveis de maturidade profissional e vivência em projetos de variadas escalas. A seguir, apresentam-se as principais conclusões obtidas, as contribuições práticas do estudo, suas limitações e as recomendações para trabalhos futuros.
+
+\section{Síntese dos Resultados e Atendimento aos Objetivos}
+\label{sec:conclusao_objetivos}
+
+Os resultados empíricos obtidos permitiram responder integralmente aos objetivos específicos delineados na introdução deste trabalho:
+
+\begin{enumerate}
+    \item \textbf{Análise comparativa das características técnicas}: A fundamentação teórica e a pesquisa empírica evidenciaram que o sistema de tipagem estática e opcional do TypeScript representa uma evolução estrutural sobre a tipagem dinâmica do JavaScript. Embora o JavaScript ofereça agilidade imediata e ausência de etapas formais de compilação, o TypeScript desloca a detecção de incompatibilidades de tipos do tempo de execução para o tempo de compilação, prevenindo falhas silenciosas em produção.
+    
+    \item \textbf{Identificação dos benefícios e desafios do TypeScript}: Os dados confirmaram que os principais benefícios do TypeScript residem na expressiva manutenibilidade a longo prazo (média de $4,44$ entre experientes), na prevenção de bugs (média global de $4,17$), na padronização arquitetural em equipes grandes (média de $4,30$) e na segurança durante refatorações críticas. Em contrapartida, os principais desafios identificados consistem no custo inicial de configuração de ambiente, no atrito com bibliotecas de terceiros desprovidas de tipagem adequada e na necessidade de disciplina técnica contínua.
+    
+    \item \textbf{Avaliação do impacto do nível de experiência}: Constatou-se uma nítida divergência perceptual condicionada pelo tempo de carreira e vivência em projetos de grande escala. Enquanto iniciantes valorizam a flexibilidade e a prototipagem rápida do JavaScript (média de $4,29$), os profissionais seniores experimentam um salto líquido de produtividade ao utilizar TypeScript (média de $4,22$, contra $2,93$ dos iniciantes), manifestando preferência hegemônica ($4,56$) pela sua utilização em novos projetos corporativos.
+\end{enumerate}
+
+\section{Contribuições e Recomendações Práticas}
+\label{sec:recomendacoes_praticas}
+
+A partir dos achados desta pesquisa, formulam-se diretrizes aplicadas destinadas tanto à gestão de projetos de software quanto à formação acadêmica:
+
+\subsection{Diretrizes para a Indústria e Gestores de Tecnologia}
+\begin{itemize}
+    \item \textbf{Projetos Corporativos e de Longo Prazo}: Recomenda-se a adoção mandatória de TypeScript para aplicações empresariais, sistemas colaborativos e bases de código com previsão de sustentação contínua, uma vez que a tipagem atua como documentação autoexecutável e barreira contra regressões.
+    \item \textbf{Prototipagem e MVPs}: O uso de JavaScript puro permanece altamente justificável em estágios exploratórios de produtos (\textit{Minimum Viable Products}), validações conceituais imediatas ou scripts utilitários onde a velocidade inicial sobrepõe-se à rigidez estrutural.
+    \item \textbf{Estratégias de Migração Gradual}: Equipes que planejam migrar sistemas legados de JavaScript para TypeScript devem prever um investimento deliberado em capacitação inicial e adotar estratégias incrementais (ativando modos permissivos antes de aplicar regras estritas de tipagem), evitando o uso indiscriminado do tipo \texttt{any}.
+\end{itemize}
+
+\subsection{Diretrizes para o Ensino Acadêmico de Computação}
+\begin{itemize}
+    \item \textbf{Progressão Pedagógica}: Cursos de graduação e técnicos em computação e sistemas de informação devem manter o JavaScript no ciclo básico introdutório, dada sua menor barreira de entrada e facilidade didática ($4,17$ geral).
+    \item \textbf{Maturidade em Engenharia de Software}: Deve-se introduzir o TypeScript nas disciplinas avançadas de desenvolvimento web e arquitetura de software, preparando os futuros profissionais para as exigências reais do mercado de trabalho corporativo.
+\end{itemize}
+
+\section{Limitações da Pesquisa}
+\label{sec:limitacoes}
+
+Como em qualquer estudo empírico, algumas limitações metodológicas devem ser consideradas na interpretação dos resultados:
+\begin{enumerate}
+    \item \textbf{Tamanho da Amostra}: A pesquisa baseou-se em uma amostra de $N = 23$ participantes, selecionada por conveniência em comunidades de tecnologia e no ambiente acadêmico do IFBA. Embora a amostra seja diversificada e tenha possibilitado análises comparativas consistentes, generalizações estatísticas para a totalidade da comunidade global de desenvolvedores devem ser realizadas com parcimônia.
+    \item \textbf{Natureza Autorreferida}: Os dados fundamentam-se nas percepções e autoavaliações dos próprios desenvolvedores, refletindo experiências subjetivas que podem ser influenciadas por preferências pessoais e tendências de mercado.
+\end{enumerate}
+
+\section{Sugestões para Trabalhos Futuros}
+\label{sec:trabalhos_futuros}
+
+Para dar continuidade e aprofundamento à linha de pesquisa explorada neste trabalho de conclusão de curso, sugerem-se as seguintes investigações:
+\begin{enumerate}
+    \item \textbf{Estudo de Mineração de Repositórios}: Realizar uma análise quantitativa automatizada em larga escala de repositórios públicos (GitHub/GitLab) de empresas brasileiras, extraindo métricas concretas de densidade de bugs, complexidade ciclomática e rotatividade de código (\textit{code churn}) em projetos JS e TS.
+    \item \textbf{Impacto de Assistentes de Inteligência Artificial}: Investigar como o surgimento de ferramentas de inteligência artificial generativa e autocompletar inteligente (como GitHub Copilot e modelos baseados em LLM) impacta a curva de aprendizado de linguagens fortemente tipadas como o TypeScript.
+    \item \textbf{Estudo Longitudinal de Migração}: Acompanhar equipes de desenvolvimento durante o ciclo completo de migração de uma base legada em JavaScript para TypeScript, mensurando o tempo despendido, os tipos de erros encontrados e o impacto na velocidade de entrega (\textit{lead time}).
+\end{enumerate}
+
+Em conclusão, o TypeScript consolidou-se como um pilar fundamental da engenharia de front-end moderna, demonstrando que a imposição de tipos estáticos, longe de ser um obstáculo burocrático, constitui uma poderosa ferramenta de produtividade, governança e confiabilidade para a construção de sistemas sustentáveis.

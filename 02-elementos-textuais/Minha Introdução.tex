@@ -1,0 +1,31 @@
+\chapter{Introdução}
+
+O desenvolvimento de aplicações para a Web representa, nas últimas décadas, um dos setores mais dinâmicos e influentes da tecnologia da informação. A crescente demanda por experiências digitais ricas, interativas e de alto desempenho impulsionou uma rápida evolução das tecnologias de front-end, a camada da aplicação com a qual o usuário final interage diretamente. Nesse ecossistema, a linguagem JavaScript (JS) se consolidou como pilar tecnológico, sendo, por mais de uma década, a mais utilizada por desenvolvedores em todo o mundo \cite{stackoverflow2023}.
+
+Originalmente concebido para adicionar interatividade a páginas estáticas, o JavaScript evoluiu, por meio da padronização do \textit{ECMAScript}, para uma linguagem versátil e poderosa. Contudo, a mesma flexibilidade que impulsionou sua popularidade — notadamente a tipagem dinâmica — pode ampliar a distância entre o código produzido e os problemas observados em execução. Estudos sobre defeitos em JavaScript indicam que uma parcela desses problemas poderia ser detectada por verificações estáticas, embora isso não esgote as causas de falhas em aplicações web \cite{makimov2022,richards2017}.
+
+Em resposta a essa lacuna, a Microsoft lançou, em 2012, o TypeScript (TS), um superconjunto de JavaScript que adiciona tipagem estática gradual e é posteriormente transformado em JavaScript. Essa arquitetura favorece a migração incremental e amplia o suporte do editor a navegação, autocompletar e refatoração, mas não constitui uma garantia de correção em tempo de execução. A literatura mais recente sugere, inclusive, que o efeito da linguagem depende da configuração do compilador e da qualidade dos contratos mantidos nas bibliotecas externas \cite{george2020,zandonotto2026compiler,feldthaus2014interfaces}.
+
+Assim, o TypeScript não deve ser compreendido como uma solução que elimina bugs, mas como uma tecnologia que altera o perfil dos riscos. A análise de defeitos da própria linguagem identificou problemas envolvendo tipos, semântica, escopos, recursos e comportamento do compilador \cite{wang2025bugs}. Em projetos reais, falhas de configuração, uso de APIs, dependências e assincronicidade também podem superar os erros locais de lógica, deslocando parte da fragilidade para as fronteiras entre código, ferramentas e ambiente de execução \cite{tang2026ecosystem}.
+
+A escolha entre JavaScript e TypeScript envolve um balanço complexo de vantagens e desvantagens, percebidas de maneiras distintas por desenvolvedores com diferentes níveis de experiência. Enquanto profissionais experientes tendem a valorizar a robustez e a estrutura que o TypeScript oferece, iniciantes podem ser atraídos pela simplicidade e pela curva de aprendizado mais suave do JavaScript \cite{shrestha2022}.
+
+\section{Justificativa}
+
+Este estudo se justifica pela sua dupla relevância, prática e acadêmica. No contexto profissional, uma compreensão aprofundada dos fatores que influenciam a adoção de cada linguagem pode subsidiar decisões estratégicas de equipes e gestores de tecnologia. A escolha da ferramenta adequada impacta diretamente a produtividade, a manutenibilidade de projetos e a capacidade de escalar sistemas de forma sustentável.
+
+Do ponto de vista acadêmico, embora a popularidade do TypeScript e os possíveis ganhos da tipagem estática sejam bem documentados, ainda é necessário relacionar esses ganhos às condições concretas de adoção. A configuração do compilador, a correspondência entre interfaces e bibliotecas JavaScript e a complexidade do toolchain influenciam o resultado obtido. Há também uma lacuna sobre como a percepção desses benefícios e desafios é modulada pelo nível de experiência do desenvolvedor, especialmente no cenário tecnológico brasileiro. Esta pesquisa busca contribuir para esse debate, examinando a escolha entre JavaScript e TypeScript a partir da literatura e das percepções de desenvolvedores.
+
+\section{Objetivos}
+
+\subsection{Objetivo Geral}
+
+Investigar as percepções e os fatores que influenciam a adoção de JavaScript e TypeScript no desenvolvimento front-end, analisando as diferenças entre desenvolvedores iniciantes e profissionais experientes.
+
+\subsection{Objetivos Específicos}
+
+\begin{enumerate}
+    \item Analisar comparativamente as características técnicas do JavaScript e do TypeScript, com foco nos sistemas de tipagem e seus impactos no desenvolvimento.
+    \item Identificar, com base na literatura e em dados, os benefícios e desafios associados à adoção do TypeScript em projetos de software.
+    \item Avaliar de que forma o nível de experiência dos desenvolvedores (iniciantes versus experientes) influencia a percepção e a preferência por uma ou outra tecnologia.
+\end{enumerate}

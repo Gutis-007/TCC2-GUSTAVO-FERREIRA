@@ -1,0 +1,81 @@
+\chapter{Citações e Referências}\label{referencias}
+Neste capítulo, apresentamos diversas formas de citações bibliográficas para que os autores possam se familiarizar com as diferentes maneiras de fazê-las. O template é bastante versátil e já vem configurado para seguir as normas da ABNT em relação à bibliografia, portanto, não é necessário se preocupar com isso.
+
+As citações são trechos transcritos ou informações retiradas das publicações consultadas para a realização do trabalho. Elas são utilizadas no texto com o propósito de esclarecer, completar, embasar ou corroborar as ideias do autor.
+
+Todas as publicações consultadas e efetivamente utilizadas (através de citações) devem ser listadas obrigatoriamente nas referências bibliográficas, para preservar os direitos autorais e intelectuais, conforme consta nas normas da ABNT. \textbf{Mas não se preocupe! nosso template gera automaticamente as referências para você.}
+
+No arquivo {\ttfamily refbase.bib} fornecido no template, há exemplos de como inserir referências bibliográficas para diferentes tipos de fontes, como livros, artigos em conferências, artigos em jornais e páginas Web.
+
+As referências podem ser citadas no texto usando os comandos \verb|\cite{chave}| ou \verb|\cite[p.~123]{chave}|, onde ``chave'' é o identificador da referência no arquivo \verb|.bib| (que no nosso caso é o \verb|refbase.bib|).
+
+Para livros, o formato da bibliografia no arquivo-fonte é o seguinte:
+\begin{verbatim}
+@Book{Barabasi,
+   author = {A. L. Barabasi},
+   title = {Linked: The New Science of Networks},
+   publisher = {Perseus Publishing},
+   year = {2002},
+}
+\end{verbatim}
+
+A citação direta deste livro se faz da seguinte forma  \cite{Barabasi}. Para os artigos em {\textit jornais}, veja, por exemplo \cite{carvalho:2001},
+descrito da seguinte forma no arquivo {\ttfamily refbase.bib}:
+\begin{verbatim}
+@Article{carvalho:2001,
+  Title = {Inteligência competitiva numa visão de futuro},
+  Author= {Cláudia Carvalho and José Fajardo and Joaquim Cruz},
+  Journal = {DataGramaZero - Revista da Ciência da Informação},
+  Year = {2001},
+  Number= {3},
+  Pages = {12--16},
+  Volume = {2},
+  Mounth= {junho},
+  Subtitle = {proposta metodológica}}
+\end{verbatim}
+
+
+\section{Citação indiretas ou livres}\label{ciação direta}
+As \textit{citações indiretas} são feitas com o comando \verb|\textcite{label}|, onde \verb|label| corresponde a um nome dado para chamar a referência no texto. Por exemplo, \textcite{maturana:2003} defende um princípio de lógica...
+
+Além disso, quando um trabalho citado possui mais de três autores, deve-se utilizar o termo \textit{et al.}, sendo o padrão do estilo {\ttfamily abntex2} incorporado automaticamente em nosso template. Por exemplo, \textcite{teste:2014} argumenta que...
+
+\textit{Obs.: opcionalmente você pode utilizar o comando }\verb|\citonline{referencia}|, em vez de \verb|\textcite{referencia}|, tal como \citeonline{lima}.
+
+
+\section{Citações diretas ou literais}\label{citacoesdiretas}
+Há várias maneiras de se fazer uma citação literal. As citações longas (mais de 3 linhas) devem usar um parágrafo específico para ela, na forma de um texto recuado (4 cm da margem esquerda), com tamanho de letra menor do que aquela utilizada no texto e espaçamento simples entre as linhas, seguido dos sobrenomes dos autores em caixa alta (separados por ponto e vírgula), ano de publicação e número da página. \textbf{Mas não se preocupe com estas regras, o template já está programado para fazer tudo isso automaticamente}, utilize o ambiente \texttt{citacao} para isso. Por exemplo:
+\begin{citacao}
+Desse modo, opera-se uma ruptura decisiva entre a reflexividade filosófica, isto 	é a possibilidade do sujeito de pensar e de refletir, e a objetividade científica.
+Encontramo-nos num ponto em que o conhecimento científico está sem consciência.
+Sem consciência moral, sem consciência reflexiva e também subjetiva.
+Cada vez mais o desenvolvimento extraordinário do conhecimento científico vai tornar menos praticável a própria possibilidade de reflexão do sujeito sobre a sua pesquisa \cite[p.~28]{morinmoigne:2000}.
+\end{citacao}
+
+Obs.: O recuo passou a ser optativo de acordo com atualização em 2023 da norma da ABNT 10520 \cite{NBR10520:2023}. Instituições ou representações institucionais podem ser citadas com letras das siglas, como esta última e a próxima citação neste parágrafo. Mais informações sobre as mudanças da norma ABNT podem ser consultadas em \textcite{abnt2023}. Consulte as principais mudanças nas normas da ABNT em \href{https://waldexifba.wordpress.com/2024/07/26/norma-abnt-principais-mudancas-e-atualizacoes-em-citacoes/}{waldexifba.wordpress.com}.
+
+As citações curtas (menos de 3 linhas) devem ser inseridas diretamente no texto (entre aspas), seguida do nome do autor (em caixa alta), ano e página, como no exemplo a seguir.
+
+Então significa apenas que ``assumo que não posso fazer referência a entidades independentes de mim para construir meu explicar'' \cite[p.~35]{maturana:2003}.
+
+\section{Resumo dos comandos para  referências }\label{referenciasUtilizadas}
+Abaixo, apresentamos exemplos de referências já citadas no texto com seus comandos correspondentes:
+\begin{itemize}
+	\item \textcite{maturana:2003}\\ \verb|\textcite{maturana:2003}|
+	\item \textcite{teste:2014}\\ \verb|\textcite{teste:2014}|
+	\item \cite[p.~28]{morinmoigne:2000}\\ \verb|\cite[p.~28]{morinmoigne:2000}|
+	\item \textcite[p.~33]{morinmoigne:2000}\\ \verb|\textcite[p.~33]{morinmoigne:2000}|
+	\item \cite[p.~35]{maturana:2003}\\ \verb|\cite[p.~35]{maturana:2003}|
+	\item \textcite[p.~35]{maturana:2003}\\ \verb|\textcite[p.~35]{maturana:2003}|
+	\item \cite{teste:2014,maturana:2003}\\ \verb|\cite{teste:2014,maturana:2003}|
+\end{itemize}
+
+Esses comandos permitem citar corretamente as referências no texto e gerar a lista de referências automaticamente, de acordo com as normas estabelecidas pela ABNT.
+
+
+\section{Como gerar um arquivo de referências para Latex de forma automática}
+Pode ser laborioso  digitar todas as informações no arquivo \verb|refbase.bib|, neste caso, você pode criar seu próprio arquivo com extensão \verb|.bib|. Existem diversas ferramentas que podem ajudar na geração automática de arquivos \verb|.bib|, incluindo gerenciadores de referências como \href{https://www.mendeley.com}{Mendeley}, \href{https://www.jabref.org}{JabRef}, \href{https://www.zotero.org}{Zotero} e \href{https://endnote.com}{EndNote}. Esses programas permitem a importação de referências de diversas fontes, como artigos científicos, livros e websites, e a organização dessas referências em uma biblioteca pessoal.
+
+Outra opção é o uso de ferramentas de extração de dados, como o \href{https://scholar.google.com.br}{Google Scholar} e o \href{https://citeseerx.ist.psu.edu}{CiteSeerX}, que permitem a busca e a extração automática de referências bibliográficas a partir de uma palavra-chave, autor ou tópico de pesquisa.
+
+Uma vez que o arquivo \verb|.bib| foi gerado, ele pode ser incorporado em um documento \LaTeX,  por meio do comando \verb|\bibliography{arquivo}|, onde ``arquivo'' é o nome do arquivo \verb|.bib| (olhe a chamada do arquivo \verb|refbase.bib| no documento principal). Em seguida, as referências podem ser citadas conforme explicamos anteriormente.

@@ -1,0 +1,38 @@
+\chapter{ELABORAÇÃO DO TCC}
+Com este template, incorporado com a classe ABNT, o aluno não precisa se preocupar com as normas de espaçamento, margens, fonte, referências, citações, etc. O template já está configurado para trabalhar automaticamente com essas regras e aplicá-las no texto final.
+\section{Arquivos, Pacotes e configurações}
+Na pasta ``Pacotes'', o arquivo {\ttfamily \verb+ifba_monograia+} contém toda a programação da classe. \textbf{Este arquivo não deve ser apagado ou alterado.}
+
+No arquivo \verb+Main.tex+, o comando \verb#\pretextual# indica o início  dos elementos obrigatórios e opcionais. Os comandos \verb#\imprimircapa# e \verb#\imprimirfolhaderosto{}# imprimem a capa e a folha de rosto, respectivamente, com as informações contidas no arquivo {\ttfamily 1-Inf.Capa-FolhaRosto} na pasta {\ttfamily 01-elementos-pre-textuais}. Tanto a capa quanto a folha de rosto são obrigatórias segundo as normas da ABNT.
+
+\textit{No arquivo \textit{{\ttfamily 1-Inf.Capa-FolhaRosto}}, você deve colocar as informações principais do seu trabalho, tais como título, autor, orientador, coorientador (caso não tenha coorientador, comente a linha), instituição, curso, etc. Tais informações aparecerão automaticamente na capa, folha de rosto e folha de aprovação, conforme orienta as normas da ABNT.}
+
+Na pasta {\ttfamily 01-elementos-pre-textuais}, há exemplos de arquivos pré-textuais, chamados no arquivo principal, a saber:
+
+\begin{alineas}
+\item \textbf{FolhaAprovacao} -- elemento obrigatório
+\item \textbf{dedicatoria} -- elemento opcional
+\item \textbf{agradecimentos} -- elemento opcional
+\item \textbf{epígrafe} -- elemento opcional
+\item \textbf{resumoPt} -- elemento obrigatório
+\item \textbf{resumoEn} -- elemento obrigatório
+\item \textbf{listaFiguras} -- elemento opcional
+\item \textbf{listaTabelas} -- elemento opcional
+\item \textbf{listaQuadros} -- elemento opcional
+\item \textbf{listaAlgoritmos} -- elemento opcional
+\item \textbf{listaSiglas} -- elemento opcional
+\item \textbf{listaSimbolos} -- elemento opcional
+\item \textbf{sumário} -- elemento obrigatório
+\end{alineas}
+
+Os arquivos {\ttfamily listaFiguras}, {\ttfamily listaTabelas}, {\ttfamily listaQuadros} e {\ttfamily listaAlgoritmos} não devem ser modificados. Caso algum destes elementos não seja necessário em seu trabalho, basta comentar a linha correspondente no arquivo principal. Já os arquivos {\ttfamily listaSiglas} e {\ttfamily listaSimbolos} devem ser editados apenas se fizerem parte do seu trabalho. Caso contrário, também é possível comentar a linha correspondente no arquivo principal.
+
+A ficha catalográfica é um elemento obrigatório fornecido pela biblioteca e deve ser inserida no verso da folha de rosto. No arquivo principal, a linha correspondente está comentada. Após receber a ficha catalográfica da biblioteca, renomeie o arquivo para \textit{{\ttfamily FichaCatalografica}} e faça upload do mesmo. Em seguida, descomente a linha correspondente no arquivo principal.
+
+O comando \verb#\textual# no arquivo \verb+Main.tex+ marca o início dos elementos textuais, que incluem a introdução, os capítulos e a conclusão. Já o comando \verb#\postextual# indica o início dos elementos pós-textuais, que compreendem as referências, o glossário, os apêndices e os índices.
+
+As referências devem ser armazenadas em um arquivo com extensão \verb#.bib#. Na pasta \verb#03-elementos-pos-textuais#, você encontrará o arquivo {\ttfamily refbase.bib}, que contém exemplos de referências. É possível substituir as referências nesse arquivo pelas suas, sem a necessidade de criar um novo arquivo. O capítulo \ref{chap:conclusao} traz mais informações sobre esse assunto.
+
+\section{Outra seção de exemplo}
+Inserir seu texto aqui...
+

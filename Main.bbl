@@ -1,0 +1,730 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{bogner2022}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6f9a37903012edd7915c3973ef8478b7}{%
+           family={Bogner},
+           familyi={B\bibinitperiod},
+           given={Justus},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3b555094827b235ef74e410e9c1d817}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{850a8e9d89d8d2fcafa3cb049fa09849}
+      \strng{fullhash}{850a8e9d89d8d2fcafa3cb049fa09849}
+      \strng{fullhashraw}{850a8e9d89d8d2fcafa3cb049fa09849}
+      \strng{bibnamehash}{850a8e9d89d8d2fcafa3cb049fa09849}
+      \strng{authorbibnamehash}{850a8e9d89d8d2fcafa3cb049fa09849}
+      \strng{authornamehash}{850a8e9d89d8d2fcafa3cb049fa09849}
+      \strng{authorfullhash}{850a8e9d89d8d2fcafa3cb049fa09849}
+      \strng{authorfullhashraw}{850a8e9d89d8d2fcafa3cb049fa09849}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 19th International Conference on Mining Software Repositories}
+      \field{title}{{To type or not to type? A systematic comparison of the software quality of JavaScript and TypeScript applications on GitHub}}
+      \field{year}{2022}
+      \field{pages}{552\bibrangedash 563}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/3524842.3528454
+      \endverb
+      \verb{urlraw}
+      \verb https://dl.acm.org/doi/abs/10.1145/3524842.3528454
+      \endverb
+      \verb{url}
+      \verb https://dl.acm.org/doi/abs/10.1145/3524842.3528454
+      \endverb
+    \endentry
+    \entry{cristiani2021declarations}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b71c28ad9fde08f170516c505a591fe0}{%
+           family={Cristiani},
+           familyi={C\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbe21d48d51f0b3b676649d287dc1372}{%
+           family={Thiemann},
+           familyi={T\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea2395bc20a12b246f5e99472a8ebcc4}
+      \strng{fullhash}{ea2395bc20a12b246f5e99472a8ebcc4}
+      \strng{fullhashraw}{ea2395bc20a12b246f5e99472a8ebcc4}
+      \strng{bibnamehash}{ea2395bc20a12b246f5e99472a8ebcc4}
+      \strng{authorbibnamehash}{ea2395bc20a12b246f5e99472a8ebcc4}
+      \strng{authornamehash}{ea2395bc20a12b246f5e99472a8ebcc4}
+      \strng{authorfullhash}{ea2395bc20a12b246f5e99472a8ebcc4}
+      \strng{authorfullhashraw}{ea2395bc20a12b246f5e99472a8ebcc4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 18th ACM SIGPLAN International Conference on Managed Programming Languages and Runtimes}
+      \field{title}{{Generation of TypeScript declaration files from JavaScript code}}
+      \field{year}{2021}
+      \field{pages}{97\bibrangedash 112}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1145/3475738.3480941
+      \endverb
+    \endentry
+    \entry{feldthaus2014interfaces}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=74043a70305bbf109b5d80f02b9ad54b}{%
+           family={Feldthaus},
+           familyi={F\bibinitperiod},
+           given={Asger},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2984a3f29b320c40699941f7385075d}{%
+           family={Møller},
+           familyi={M\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{05e0b6927a5b75d0e24c28fe88e889ac}
+      \strng{fullhash}{05e0b6927a5b75d0e24c28fe88e889ac}
+      \strng{fullhashraw}{05e0b6927a5b75d0e24c28fe88e889ac}
+      \strng{bibnamehash}{05e0b6927a5b75d0e24c28fe88e889ac}
+      \strng{authorbibnamehash}{05e0b6927a5b75d0e24c28fe88e889ac}
+      \strng{authornamehash}{05e0b6927a5b75d0e24c28fe88e889ac}
+      \strng{authorfullhash}{05e0b6927a5b75d0e24c28fe88e889ac}
+      \strng{authorfullhashraw}{05e0b6927a5b75d0e24c28fe88e889ac}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2014 ACM International Conference on Object Oriented Programming Systems Languages and Applications}
+      \field{title}{{Checking correctness of TypeScript interfaces for JavaScript libraries}}
+      \field{year}{2014}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1145/2660193.2660215
+      \endverb
+    \endentry
+    \entry{george2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e13bc65123cb929f234473d309abdb8d}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={Juliana},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e13bc65123cb929f234473d309abdb8d}
+      \strng{fullhash}{e13bc65123cb929f234473d309abdb8d}
+      \strng{fullhashraw}{e13bc65123cb929f234473d309abdb8d}
+      \strng{bibnamehash}{e13bc65123cb929f234473d309abdb8d}
+      \strng{authorbibnamehash}{e13bc65123cb929f234473d309abdb8d}
+      \strng{authornamehash}{e13bc65123cb929f234473d309abdb8d}
+      \strng{authorfullhash}{e13bc65123cb929f234473d309abdb8d}
+      \strng{authorfullhashraw}{e13bc65123cb929f234473d309abdb8d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ResearchGate}
+      \field{note}{Disponível em: \url{https://www.researchgate.net/publication/389688708_Adoption_Trends_Why_Developers_Are_Switching_from_JavaScript_to_TypeScript}}
+      \field{title}{{Adoption trends: Why developers are switching from JavaScript to TypeScript}}
+      \field{year}{2020}
+    \endentry
+    \entry{hoeflich2022scotty}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f988677a255f3c011848aadc1dde628d}{%
+           family={Hoeflich},
+           familyi={H\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=158c3ffb19af268ae2eb28d6c974353b}{%
+           family={Findler},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelima Bruce},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c5d6d8280ab4f524015c20708f50f04}{%
+           family={Serrano},
+           familyi={S\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fe7cf63d4d8ba300ed334222650e1d87}
+      \strng{fullhash}{fe7cf63d4d8ba300ed334222650e1d87}
+      \strng{fullhashraw}{fe7cf63d4d8ba300ed334222650e1d87}
+      \strng{bibnamehash}{fe7cf63d4d8ba300ed334222650e1d87}
+      \strng{authorbibnamehash}{fe7cf63d4d8ba300ed334222650e1d87}
+      \strng{authornamehash}{fe7cf63d4d8ba300ed334222650e1d87}
+      \strng{authorfullhash}{fe7cf63d4d8ba300ed334222650e1d87}
+      \strng{authorfullhashraw}{fe7cf63d4d8ba300ed334222650e1d87}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the ACM on Programming Languages}
+      \field{number}{OOPSLA2}
+      \field{title}{{Highly illogical, Kirk: Spotting type mismatches in the large despite broken contracts, unsound types, and too many linters}}
+      \field{volume}{6}
+      \field{year}{2022}
+      \field{pages}{479\bibrangedash 504}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1145/3563305
+      \endverb
+    \endentry
+    \entry{jesse2022manytypes}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cf61f10bf63c5db63ac3ba9f72b1accf}{%
+           family={Jesse},
+           familyi={J\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=165a9a35d766963e7c24cccd2c7a53ea}{%
+           family={Devanbu},
+           familyi={D\bibinitperiod},
+           given={Premkumar\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de7b68cb3aed59a0ad746d6967f6cd33}
+      \strng{fullhash}{de7b68cb3aed59a0ad746d6967f6cd33}
+      \strng{fullhashraw}{de7b68cb3aed59a0ad746d6967f6cd33}
+      \strng{bibnamehash}{de7b68cb3aed59a0ad746d6967f6cd33}
+      \strng{authorbibnamehash}{de7b68cb3aed59a0ad746d6967f6cd33}
+      \strng{authornamehash}{de7b68cb3aed59a0ad746d6967f6cd33}
+      \strng{authorfullhash}{de7b68cb3aed59a0ad746d6967f6cd33}
+      \strng{authorfullhashraw}{de7b68cb3aed59a0ad746d6967f6cd33}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 19th International Conference on Mining Software Repositories}
+      \field{title}{{ManyTypes4TypeScript: A comprehensive TypeScript dataset for sequence-based type inference}}
+      \field{year}{2022}
+      \field{pages}{294\bibrangedash 298}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1145/3524842.3528507
+      \endverb
+    \endentry
+    \entry{jesse2023types}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cf61f10bf63c5db63ac3ba9f72b1accf}{%
+           family={Jesse},
+           familyi={J\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=165a9a35d766963e7c24cccd2c7a53ea}{%
+           family={Devanbu},
+           familyi={D\bibinitperiod},
+           given={Premkumar\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbfa990c4e4d76fb4e15928f7d07130a}{%
+           family={Sawant},
+           familyi={S\bibinitperiod},
+           given={Anand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{32e210b3a2d841b125183625412b197a}
+      \strng{fullhash}{32e210b3a2d841b125183625412b197a}
+      \strng{fullhashraw}{32e210b3a2d841b125183625412b197a}
+      \strng{bibnamehash}{32e210b3a2d841b125183625412b197a}
+      \strng{authorbibnamehash}{32e210b3a2d841b125183625412b197a}
+      \strng{authornamehash}{32e210b3a2d841b125183625412b197a}
+      \strng{authorfullhash}{32e210b3a2d841b125183625412b197a}
+      \strng{authorfullhashraw}{32e210b3a2d841b125183625412b197a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Software Engineering}
+      \field{number}{4}
+      \field{title}{{Learning to predict user-defined types}}
+      \field{volume}{49}
+      \field{year}{2023}
+      \field{pages}{1508\bibrangedash 1522}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TSE.2022.3178945
+      \endverb
+    \endentry
+    \entry{makimov2022}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b636cb616c433cf74ee2ea4e694c1247}{%
+           family={Makimov},
+           familyi={M\bibinitperiod},
+           given={Kirill},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Tartu}%
+      }
+      \list{location}{1}{%
+        {Tartu}%
+      }
+      \strng{namehash}{b636cb616c433cf74ee2ea4e694c1247}
+      \strng{fullhash}{b636cb616c433cf74ee2ea4e694c1247}
+      \strng{fullhashraw}{b636cb616c433cf74ee2ea4e694c1247}
+      \strng{bibnamehash}{b636cb616c433cf74ee2ea4e694c1247}
+      \strng{authorbibnamehash}{b636cb616c433cf74ee2ea4e694c1247}
+      \strng{authornamehash}{b636cb616c433cf74ee2ea4e694c1247}
+      \strng{authorfullhash}{b636cb616c433cf74ee2ea4e694c1247}
+      \strng{authorfullhashraw}{b636cb616c433cf74ee2ea4e694c1247}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{{A qualitative case study on using TypeScript as a JavaScript alternative in frontend web development in the industry}}
+      \field{type}{Dissertação (Mestrado )}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://dspace.ut.ee/bitstreams/76796c1b-8490-4a20-8925-99b1533eeaa9/download
+      \endverb
+      \verb{url}
+      \verb https://dspace.ut.ee/bitstreams/76796c1b-8490-4a20-8925-99b1533eeaa9/download
+      \endverb
+    \endentry
+    \entry{mororo2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=124e30b526a094153c415e0cd5d160a0}{%
+           family={Mororó},
+           familyi={M\bibinitperiod},
+           given={Jadson\bibnamedelima Faustino},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Federal do Ceará}%
+      }
+      \list{location}{1}{%
+        {Sobral}%
+      }
+      \strng{namehash}{124e30b526a094153c415e0cd5d160a0}
+      \strng{fullhash}{124e30b526a094153c415e0cd5d160a0}
+      \strng{fullhashraw}{124e30b526a094153c415e0cd5d160a0}
+      \strng{bibnamehash}{124e30b526a094153c415e0cd5d160a0}
+      \strng{authorbibnamehash}{124e30b526a094153c415e0cd5d160a0}
+      \strng{authornamehash}{124e30b526a094153c415e0cd5d160a0}
+      \strng{authorfullhash}{124e30b526a094153c415e0cd5d160a0}
+      \strng{authorfullhashraw}{124e30b526a094153c415e0cd5d160a0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Um estudo comparativo entre JavaScript e TypeScript}}
+      \field{type}{Trabalho de Conclusão de Curso (Engenharia de Computação )}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://repositorio.ufc.br/bitstream/riufc/78817/1/2024_tcc_jfmororo.pdf
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ufc.br/bitstream/riufc/78817/1/2024_tcc_jfmororo.pdf
+      \endverb
+    \endentry
+    \entry{pedrycz1998}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=39780bf561ecea3f3fd53ead57031446}{%
+           family={Pedrycz},
+           familyi={P\bibinitperiod},
+           given={Witold},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4d0725a10afe615dc2d0a2ad17808b6}{%
+           family={Gomide},
+           familyi={G\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
+      \strng{fullhash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
+      \strng{fullhashraw}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
+      \strng{bibnamehash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
+      \strng{authorbibnamehash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
+      \strng{authornamehash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
+      \strng{authorfullhash}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
+      \strng{authorfullhashraw}{6ce12ab0e88d31ea9b927bd7a7a64a1b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{An introduction to fuzzy sets: analysis and design}}
+      \field{year}{1998}
+      \field{pages}{465}
+      \range{pages}{1}
+    \endentry
+    \entry{richards2017}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8a028b4bbe1417d29155a74d201c33d8}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={Gregor},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b733b008a9b6175da6851725a3c8761e}{%
+           family={Nardelli},
+           familyi={N\bibinitperiod},
+           given={Francesco\bibnamedelima Zappa},
+           giveni={F\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02d6346b81238d26cc771c69d33f7a1c}{%
+           family={Vitek},
+           familyi={V\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8b3b959445da4d378959500f5515fdef}
+      \strng{fullhash}{8b3b959445da4d378959500f5515fdef}
+      \strng{fullhashraw}{8b3b959445da4d378959500f5515fdef}
+      \strng{bibnamehash}{8b3b959445da4d378959500f5515fdef}
+      \strng{authorbibnamehash}{8b3b959445da4d378959500f5515fdef}
+      \strng{authornamehash}{8b3b959445da4d378959500f5515fdef}
+      \strng{authorfullhash}{8b3b959445da4d378959500f5515fdef}
+      \strng{authorfullhashraw}{8b3b959445da4d378959500f5515fdef}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering}
+      \field{title}{{To type or not to type: Quantifying detectable bugs in JavaScript}}
+      \field{year}{2017}
+      \field{pages}{758\bibrangedash 769}
+      \range{pages}{12}
+      \verb{urlraw}
+      \verb https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/gao2017javascript.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/gao2017javascript.pdf
+      \endverb
+    \endentry
+    \entry{shrestha2022}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7d659f284b300a15bdc1ccae17ab56c8}{%
+           family={Shrestha},
+           familyi={S\bibinitperiod},
+           given={Nischal},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4b362e4084d91173b380e0ed6b99e6e7}
+      \strng{fullhash}{4b362e4084d91173b380e0ed6b99e6e7}
+      \strng{fullhashraw}{4b362e4084d91173b380e0ed6b99e6e7}
+      \strng{bibnamehash}{4b362e4084d91173b380e0ed6b99e6e7}
+      \strng{authorbibnamehash}{4b362e4084d91173b380e0ed6b99e6e7}
+      \strng{authornamehash}{4b362e4084d91173b380e0ed6b99e6e7}
+      \strng{authorfullhash}{4b362e4084d91173b380e0ed6b99e6e7}
+      \strng{authorfullhashraw}{4b362e4084d91173b380e0ed6b99e6e7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications of the ACM}
+      \field{title}{{Here we go again: Why is it difficult for developers to learn another programming language?}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://cacm.acm.org/research/here-we-go-again/
+      \endverb
+      \verb{url}
+      \verb https://cacm.acm.org/research/here-we-go-again/
+      \endverb
+    \endentry
+    \entry{stackoverflow2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=84d7dc19766c446f5e4084e8fce87f82}{%
+           family={{Stack Overflow}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{fullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{fullhashraw}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{bibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorbibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authornamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorfullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorfullhashraw}{84d7dc19766c446f5e4084e8fce87f82}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Disponível em: \url{https://survey.stackoverflow.co/2023/}}
+      \field{note}{Acesso em: 27 jul. 2025}
+      \field{title}{{2023 Developer Survey}}
+      \field{year}{2023}
+    \endentry
+    \entry{tang2026ecosystem}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e2be20b0e2f21891a3e428cfe3aa7546}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Tianyi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31e5440cfdb8935e110b716d2e9eb5c0}{%
+           family={Alimadadi},
+           familyi={A\bibinitperiod},
+           given={Saba},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d765ea3f4fc41fed5e2dd478a54d6f3b}{%
+           family={Sumner},
+           familyi={S\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f9c054a90b9507e5a37c704bbd50f4d7}
+      \strng{fullhash}{f9c054a90b9507e5a37c704bbd50f4d7}
+      \strng{fullhashraw}{f9c054a90b9507e5a37c704bbd50f4d7}
+      \strng{bibnamehash}{f9c054a90b9507e5a37c704bbd50f4d7}
+      \strng{authorbibnamehash}{f9c054a90b9507e5a37c704bbd50f4d7}
+      \strng{authornamehash}{f9c054a90b9507e5a37c704bbd50f4d7}
+      \strng{authorfullhash}{f9c054a90b9507e5a37c704bbd50f4d7}
+      \strng{authorfullhashraw}{f9c054a90b9507e5a37c704bbd50f4d7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 23rd International Conference on Mining Software Repositories}
+      \field{title}{{From logic to toolchains: An empirical study of bugs in the TypeScript ecosystem}}
+      \field{year}{2026}
+      \field{pages}{539\bibrangedash 549}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1145/3793302.3793379
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2601.21186
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2601.21186
+      \endverb
+    \endentry
+    \entry{wang2025bugs}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=614679531730b04ba9742891ce817de3}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ziyuan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=579854556d444e653fb692cf418c4048}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Yun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be0938116c402955dca9f9306ab0f597}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Nannan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{742392118f39a064b4384c8e57426511}
+      \strng{fullhash}{742392118f39a064b4384c8e57426511}
+      \strng{fullhashraw}{742392118f39a064b4384c8e57426511}
+      \strng{bibnamehash}{742392118f39a064b4384c8e57426511}
+      \strng{authorbibnamehash}{742392118f39a064b4384c8e57426511}
+      \strng{authornamehash}{742392118f39a064b4384c8e57426511}
+      \strng{authorfullhash}{742392118f39a064b4384c8e57426511}
+      \strng{authorfullhashraw}{742392118f39a064b4384c8e57426511}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Systems and Software}
+      \field{title}{{An empirical study on bugs in TypeScript programming language}}
+      \field{volume}{226}
+      \field{year}{2025}
+      \field{pages}{112445}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jss.2025.112445
+      \endverb
+    \endentry
+    \entry{zandonotto2026compiler}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=32c7ef2b1ba026dc035a83683ac0fad0}{%
+           family={Zandonotto},
+           familyi={Z\bibinitperiod},
+           given={Thomaz},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=211d29018206f6ed4bfbc1de9103541a}{%
+           family={Roehrs},
+           familyi={R\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93916008a1f003255cc56cc97d3b519e}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Kleinner\bibnamedelimb Silva\bibnamedelima Farias},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=de6106bf3b2fad290f8b1f3da32183a8}{%
+           family={Barbosa},
+           familyi={B\bibinitperiod},
+           given={Jorge\bibnamedelimb Luis\bibnamedelima Victória},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8c235a079638d5734dfed7598523a64}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Cristiano\bibnamedelima André},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=bbbdd2b9c8191025efad76d82662802f}{%
+           family={Rosa\bibnamedelima Righi},
+           familyi={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Rodrigo},
+           giveni={R\bibinitperiod},
+           givenun=0,
+           prefix={da},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{58815736934d934f2980a4ea3f657879}
+      \strng{fullhash}{f9872af1189f5acd4d847f169e49d7d3}
+      \strng{fullhashraw}{f9872af1189f5acd4d847f169e49d7d3}
+      \strng{bibnamehash}{58815736934d934f2980a4ea3f657879}
+      \strng{authorbibnamehash}{58815736934d934f2980a4ea3f657879}
+      \strng{authornamehash}{58815736934d934f2980a4ea3f657879}
+      \strng{authorfullhash}{f9872af1189f5acd4d847f169e49d7d3}
+      \strng{authorfullhashraw}{f9872af1189f5acd4d847f169e49d7d3}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Software Engineering Research and Development}
+      \field{number}{1}
+      \field{title}{{How TypeScript compiler options influence code quality: A correlation study with Git repositories}}
+      \field{volume}{14}
+      \field{year}{2026}
+      \field{pages}{228\bibrangedash 246}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.5753/jserd.2026.5985
+      \endverb
+    \endentry
+    \entry{zimmermann2010}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=09fef4f3ae04106ff27f06848ba5199e}{%
+           family={Zimmermann},
+           familyi={Z\bibinitperiod},
+           given={H.\bibnamedelimi J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{09fef4f3ae04106ff27f06848ba5199e}
+      \strng{fullhash}{09fef4f3ae04106ff27f06848ba5199e}
+      \strng{fullhashraw}{09fef4f3ae04106ff27f06848ba5199e}
+      \strng{bibnamehash}{09fef4f3ae04106ff27f06848ba5199e}
+      \strng{authorbibnamehash}{09fef4f3ae04106ff27f06848ba5199e}
+      \strng{authornamehash}{09fef4f3ae04106ff27f06848ba5199e}
+      \strng{authorfullhash}{09fef4f3ae04106ff27f06848ba5199e}
+      \strng{authorfullhashraw}{09fef4f3ae04106ff27f06848ba5199e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Fuzzy set theory}}
+      \field{volume}{2}
+      \field{year}{2010}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

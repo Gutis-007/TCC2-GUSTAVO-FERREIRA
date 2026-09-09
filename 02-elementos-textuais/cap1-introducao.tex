@@ -1,0 +1,74 @@
+%
+% Documento: Introdução
+%
+
+\chapter{Introdução}\label{chap:introducao}
+\section{Objetivos}
+\subsection{Objetivo geral}
+Desenvolver um modelo prático que facilite a escrita de trabalhos de TCC de acordo com as normas da ABNT, ao nível de especialização.
+\subsection{Objetivos específicos}
+\begin{enumerate}[(i)]
+\item Estudar as normas da ABNT;
+\item Estudar a classe ABNTex2 e seus documentos relativos;
+\item Desenvolver uma classe com extensão \verb+.cls+ contendo todas as regras da ABNT, com programações para capa, folha de rosto, folha de aprovação, resumo, entre outros;
+\item Criar arquivos de exemplo organizados em pastas;
+\item Escrever instruções de utilização do modelo criado;
+\item Oferecer suporte técnico aos usuários.
+\end{enumerate}
+\section{Sobre o modelo}
+Este modelo em \LaTeX \ de trabalho de final de curso foi elaborado para o programa de Especialização em Ensino de Matemática-M@temática na Pr@atica, mas também pode ser utilizado por outros programas de graduação e pós-graduação do IFBA ou  outras instituições, caso se adéque as regras da mesma.
+
+A classe {\ttfamily Ifba-tcc.cls}foi desenvolvida com base nas normas da ABNT e do IFBA para trabalhos de conclusão de curso. Para um melhor entendimento do uso da formatação, recomenda-se que o usuário analise os comandos existentes nos arquivos contidos nas pastas de elementos pré-textuais, textuais e pós-textuais, assim como no arquivo {\ttfamily Main.tex} e seus resultados após compilação. 
+
+Maiores detalhes relacionados aos comandos existentes no estilo ABNT podem ser adquiridos através da documentação disponível no site  \href{http://www.abntex.net.br/}{abntex.net.br}. Encorajamos também o usuário consultar as regras do pacote abntex \href{http://linorg.usp.br/CTAN/macros/latex/contrib/abntex2/doc/abntex2.pdf}{neste link}.
+
+Os arquivos \textit{pré-textuais}, \textit{textuais} e \textit{pós-textuais} podem ser modificados a vontade, o texto escrito, assim como as referências citadas são apenas ilustrativas. O arquivo principal {\ttfamily Main.tex} também pode ser modificado ou renomeado.
+
+\textit{A utilização deste modelo requer conhecimento prévio de \LaTeX. Ao longo do modelo, foram inseridos comandos em \LaTeX\ para auxiliar o usuário, como, por exemplo, \textbf{este trecho de texto em negrito} e este parágrafo em itálico. Os atalhos do teclado, como ctrl+B ou ctrl+I, também funcionam aqui no Overleaf}.
+
+Uma das principais vantagens do uso deste modelo é a formatação \textit{automática} dos elementos que compõem um documento acadêmico, tais como capa, folha de rosto, dedicatória, agradecimentos, epígrafe, resumo, abstract, listas de figuras, tabelas, siglas e símbolos, sumário, capítulos e referências.
+
+\textbf{Os arquivos que geram as listas de tabelas, figuras, siglas, símbolos e o sumário não devem ser alterados}, uma vez que geram automaticamente os itens propostos. Em contrapartida, os demais arquivos podem ser modificados à vontade. Caso não queira utilizar elementos opcionais, como epígrafe, siglas, lista de símbolos, dedicatória ou agradecimentos, basta comentar as linhas correspondentes no arquivo principal {\ttfamily Main.tex}.
+
+Sugestões para melhorar o modelo e indicações de possíveis correções serão muito bem-vindas. A partir do segundo capítulo, descrevemos como utilizar este modelo para usuários com pouca experiência em \LaTeX.  Para dúvidas e contribuições, os contatos do autor estão listados na seção \ref{sec:contatos}.
+
+\section{Atualizações do template de TCC}
+\begin{description}
+     \item[29/07/2024:] Adaptação as novas normas da ABNT de fevereiro de 2023. As principais mudanças podem ser consultadas \href{https://waldexifba.wordpress.com/2024/07/26/norma-abnt-principais-mudancas-e-atualizacoes-em-citacoes/}{neste link}.
+     \item[29/07/2024:] Acrescentado novo comando \verb|\apas{}|. Agora você pode simplesmente digitar \verb|\aspas{texto aqui}| para gerar \aspas{texto aqui}.
+     \item[30/07/2024:] Criação automática de lista de abreviaturas e siglas. Só digitar:\\  \verb|\sigla{sigla}{significado}| que ela aparece no texto e automaticamente na lista de abreviaturas e  siglas. Por exemplo:
+     \begin{itemize}
+         \item \sigla{IFBA}{Instituto Federal da Bahia}
+         \item          \sigla{PRPGI}{Pró- Reitoria de Pesquisa, Pós-Graduação e Inovação}
+         \item \sigla{ABNT}{Associação Brasileira de Normas Técnicas}
+     \end{itemize}
+    \textbf{Estas siglas e seus significados já apareceram automaticamente, em ordem alfabética,  na lista de siglas.} 
+    
+    \textit{Se você não lembrar se já digitou ou não o significado da sigla, não tem problema. Ela não aparecerá repetida na lista de Siglas.} Se quiser que a sigla apareça automaticamente na lista de siglas, mas não apareça no texto, use o comando com asterisco, ou seja, \verb|\sigla*{sigla}{significado}|.
+    %%
+    \item[31/07/2024: ] Criação automática de lista de símbolos. Só digitar:\\  \verb|\simbolo{novosimbolo}{significado}| que ela aparece no texto e automaticamente na lista de símbolos com o seu significado. Por exemplo:
+     \begin{itemize}
+         \item O comando  \verb|\simbolo{$\mathbb{R}$}{Conjunto dos Números Reias}| \simbolo{$\mathbb{R}$}{Conjunto dos Números Reias} insere automaticamente o símbolo $\mathbb{R}$ na lista de símbolos.
+         \item O símbolo $\mathbb{C}$ é inserido automaticamente o  na lista de símbolos com o comando:  \verb|\simbolo{$\mathbb{C}$}{Conjunto dos Números Complexos}| \simbolo{$\mathbb{C}$}{Conjunto dos Números Complexos}.
+         \item O símbolo $ \Gamma $ é inserida automaticamente na lista de símbolos com o comando: \verb|\simbolo{$ \Gamma $}{Letra grega Gama}| \simbolo{$ \Gamma $}{Letra grega Gama}.
+        \item O símbolo $ \Lambda  $ é inserido automaticamente na lista de símbolos com o comando: \verb|\simbolo{$ \Lambda $}{Lambda}| \simbolo{$ \Lambda $}{Lambda}.
+        \item O comando  \verb|\simbolo{$ \in $}{Pertence}| \simbolo{$ \in $}{Pertence} insere automaticamente o símbolo $ \in $ na lista de símbolos. \simbolo{$ \notin $}{Pertence}
+      \end{itemize}  
+\end{description}
+
+
+\section{Sobre o TCC}\label{sec:motivacao}
+Este modelo foi criado para auxiliar alunos de graduação na elaboração do Trabalho de Conclusão de Curso (TCC) conforme as normas da ABNT. 
+
+O TCC deve apresentar o resultado de um estudo realizado pelo aluno, orientado por um professor. 
+
+A introdução deve conter o problema de pesquisa, sua justificativa, o objetivo geral e os específicos, além de uma descrição resumida dos próximos capítulos. 
+
+O referencial teórico deve abordar a base teórica da pesquisa, enquanto o capítulo de metodologia deve descrever a metodologia utilizada. 
+
+No capítulo de resultados e discussões, devem ser apresentados e analisados os resultados obtidos. 
+
+Nas considerações finais, o autor deve concluir a pesquisa e sugerir continuidade para futuros estudos.
+
+
+
