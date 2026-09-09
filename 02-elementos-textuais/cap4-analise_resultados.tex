@@ -105,11 +105,11 @@ A representação gráfica comparativa dessas percepções é ilustrada na Figur
 A análise dos resultados do Bloco A evidencia conclusões fundamentais sobre o impacto da maturidade profissional na percepção de produtividade:
 
 \begin{enumerate}
-    \item \textbf{A Divergência Crítica de Produtividade ($\Delta = +1,29$)}: Enquanto os desenvolvedores iniciantes mantêm uma postura neutra ou reticente quanto aos ganhos de produtividade proporcionados pelo TypeScript (média de $2,93$), os profissionais experientes manifestam forte concordância de que a tecnologia eleva expressivamente o seu rendimento (média de $4,22$). Para o desenvolvedor experiente, a sobrecarga de digitar assinaturas de tipos é amplamente compensada pelo suporte inteligente de autocompletar da IDE e pela eliminação de ciclos manuais de teste e depuração.
+    \item \textbf{Diferença de percepção de produtividade ($\Delta = +1,29$)}: Enquanto os desenvolvedores iniciantes mantêm uma postura neutra ou reticente quanto aos ganhos de produtividade proporcionados pelo TypeScript (média de $2,93$), os profissionais experientes manifestam maior concordância com essa afirmação (média de $4,22$). Na amostra estudada, essa percepção pode estar relacionada ao uso de autocompletar, refatoração e detecção de inconsistências, mas o desenho da pesquisa não mede produtividade objetiva.
     
-    \item \textbf{Prototipagem Rápida e Flexibilidade ($\Delta = -1,18$)}: O grupo de iniciantes concorda enfaticamente que o JavaScript puro possibilita criar protótipos de forma substancialmente mais veloz (média de $4,29$). Em contrapartida, os desenvolvedores seniores atribuem nota significativamente menor a essa afirmação (média de $3,11$). Isso decorre do fato de que, em estágios iniciais de aprendizado, a rigidez do compilador do TypeScript é vivenciada como uma barreira burocrática, ao passo que a ausência de amarras no JavaScript confere uma sensação imediata de liberdade e rapidez.
+    \item \textbf{Prototipagem rápida e flexibilidade ($\Delta = -1,18$)}: O grupo de iniciantes concorda mais fortemente que o JavaScript puro possibilita criar protótipos rapidamente (média de $4,29$), enquanto o grupo experiente apresenta média de $3,11$. Essa diferença é compatível com a percepção de que a configuração inicial do TypeScript pode ser mais custosa, mas não permite concluir que a linguagem seja objetivamente mais lenta em todos os contextos.
     
-    \item \textbf{Detecção Precoce de Erros ($\Delta = +0,99$)}: Ambos os grupos reconhecem o papel do TypeScript na identificação de defeitos antes do envio para produção, contudo a adesão dos seniores atinge patamares quase unânimes (média de $4,78$ e mediana $5,0$). Esse resultado corrobora diretamente os achados de \cite{richards2017} e \cite{makimov2022}, indicando que a capacidade de antecipar inconsistências durante a fase de codificação constitui o pilar central de valor percebido por quem atua em ambientes corporativos contínuos.
+    \item \textbf{Detecção precoce de erros ($\Delta = +0,99$)}: Ambos os grupos reconhecem o papel do TypeScript na identificação de defeitos antes do envio para produção, com média de $4,78$ e mediana $5,0$ entre experientes. O resultado é compatível com os achados de \cite{richards2017} e \cite{makimov2022}, mas representa percepção dos respondentes, não uma medição direta de defeitos evitados.
     
     \item \textbf{Facilidade Pedagógica}: Tanto iniciantes ($4,07$) quanto experientes ($4,33$) concordam amplamente que o JavaScript é uma linguagem didaticamente mais acessível para a introdução de novos programadores à web, reflexo direto de sua sintaxe não vinculada à tipagem estrita prévia.
 \end{enumerate}
@@ -166,7 +166,7 @@ A Figura \ref{fig:blocoB} ilustra graficamente o comportamento comparativo das v
 Os resultados do Bloco B reforçam aspectos cruciais da literatura de Engenharia de Software:
 
 \begin{enumerate}
-    \item \textbf{Manutenibilidade em Longo Prazo ($\Delta = +1,01$)}: A assertiva de que bases de código estruturadas em TypeScript são mais sustentáveis e manuteníveis ao longo do tempo recebeu avaliação destacada dos desenvolvedores seniores (média de $4,44$). Ao segmentar a amostra por participação em grandes projetos, essa média se consolida em $4,42$ (contra $3,18$ entre aqueles que nunca vivenciaram projetos extensos). Isso demonstra empiricamente que a percepção do retorno sobre o investimento (ROI) da tipagem estática cresce exponencialmente à medida que os sistemas amadurecem e sofrem contínuas manutenções evolutivas.
+    \item \textbf{Manutenibilidade em longo prazo ($\Delta = +1,01$)}: A assertiva de que bases de código estruturadas em TypeScript são mais sustentáveis recebeu avaliação destacada dos profissionais experientes (média de $4,44$). Ao segmentar a amostra por participação em grandes projetos, a média foi de $4,42$ entre participantes com essa experiência, contra $3,18$ entre os demais. Esses dados sugerem uma associação entre vivência em sistemas maiores e valorização da manutenibilidade, mas não permitem estimar retorno sobre investimento nem afirmar crescimento causal.
     
     \item \textbf{Origem de Bugs por Ausência de Tipagem Estática}: A premissa de que a tipagem dinâmica do JavaScript é um vetor prolífico de defeitos em tempo de execução obteve alta concordância em ambos os grupos ($4,00$ entre iniciantes e $4,44$ entre experientes; média geral de $4,17$). Tal constatação alinha-se às observações de \cite{bogner2022} e \cite{george2020}, ratificando que a manipulação de estruturas de dados sem contratos explícitos gera vulnerabilidades funcionais recorrentes.
     
@@ -221,11 +221,11 @@ C4. JS ainda é mais amplamente suportado & 3,96 & 4,0 & 1,07 & 3,71 & 4,33 & +0
 Dentre os principais achados do Bloco C, destacam-se:
 
 \begin{enumerate}
-    \item \textbf{Simbiose com o Ecossistema e Ferramental ($\Delta = +0,85$)}: O suporte proporcionado por ambientes de desenvolvimento integrados como o Visual Studio Code, somado a extensões de análise estática (ESLint, Prettier), é avaliado com grau extremo de satisfação pelos desenvolvedores seniores (média de $4,56$). O TypeScript transforma o editor de texto em uma ferramenta analítica completa de refatoração, navegação semântica e autocompletar contextual.
+    \item \textbf{Simbiose com o ecossistema e o ferramental ($\Delta = +0,85$)}: O suporte proporcionado por ambientes de desenvolvimento integrados e extensões de análise estática foi avaliado favoravelmente pelos profissionais experientes (média de $4,56$). Na percepção dos respondentes, esses recursos apoiam refatoração, navegação semântica e autocompletar contextual.
     
-    \item \textbf{O Paradoxo da Migração de Projetos Legados ($\Delta = -0,64$)}: Observa-se uma interessante inversão de perspectiva entre os grupos: os desenvolvedores iniciantes avaliam o processo de migração de JavaScript para TypeScript como relativamente fácil (média de $3,86$), enquanto os profissionais experientes expressam maior cautela e ceticismo (média de $3,22$). Essa divergência fundamenta-se na vivência prática: os seniores já enfrentaram os gargalos reais de migrar bases extensas, incluindo a necessidade de tipar pacotes de terceiros obsoletos, gerenciar conflitos de compilação no \texttt{tsconfig.json} e refatorar padrões altamente dinâmicos de metaprogramação herdados do ecossistema JavaScript puro.
+    \item \textbf{Percepções sobre a migração de projetos legados ($\Delta = -0,64$)}: Os desenvolvedores iniciantes avaliaram o processo de migração de JavaScript para TypeScript como relativamente fácil (média de $3,86$), enquanto os profissionais experientes apresentaram média de $3,22$. A diferença é compatível com a hipótese de que a vivência em bases extensas torna mais visíveis os custos de tipar pacotes de terceiros, gerenciar configurações e refatorar padrões dinâmicos, mas não permite atribuir uma causa única às respostas.
     
-    \item \textbf{Universalidade dos Frameworks}: A compatibilidade do TypeScript com frameworks front-end predominantes (React, Vue, Angular) recebeu uma das maiores médias gerais da pesquisa ($4,43$ e desvio-padrão de apenas $0,66$), comprovando que a indústria estabeleceu o TypeScript como padrão de primeira classe na arquitetura dessas ferramentas.
+    \item \textbf{Compatibilidade com frameworks}: A compatibilidade do TypeScript com frameworks front-end recebeu média de $4,43$ e desvio-padrão de $0,66$. O resultado expressa avaliação favorável dos participantes, mas não permite afirmar, sozinho, que toda a indústria tenha estabelecido um padrão único.
 \end{enumerate}
 
 ---
@@ -276,11 +276,11 @@ D5. Em equipes grandes, TS traz mais benefícios & 4,22 & 5,0 & 1,00 & 4,00 & 4,
 A dimensão atitudinal traz revelações expressivas:
 
 \begin{enumerate}
-    \item \textbf{Segurança Psicológica e Confiança Técnica ($\Delta = +1,04$)}: Os desenvolvedores experientes expressam um nível significativamente mais elevado de segurança ao codificar em TypeScript ($4,33$ contra $3,29$ dos iniciantes). A validação estática proporciona uma rede de proteção contra erros triviais de sintaxe e tipo, liberando a carga cognitiva do desenvolvedor para focar na lógica de negócios da aplicação.
+    \item \textbf{Confiança técnica percebida ($\Delta = +1,04$)}: Os desenvolvedores experientes expressam maior confiança ao codificar em TypeScript ($4,33$ contra $3,29$ dos iniciantes). Essa percepção pode estar relacionada ao apoio da validação estática, mas não demonstra, por si só, redução da carga cognitiva ou de erros reais.
     
-    \item \textbf{Preferência para Novos Projetos ($\Delta = +1,13$)}: Diante da oportunidade de iniciar um projeto a partir do zero, os profissionais seniores manifestam preferência quase hegemônica pelo TypeScript ($4,56$). Por outro lado, a preferência pelo JavaScript devido à sua simplicidade cai drasticamente com a experiência ($2,00$ entre seniores e $1,83$ entre atuantes em grandes projetos, contra $3,07$ e $3,55$ entre iniciantes e não-participantes de grandes projetos).
+    \item \textbf{Preferência para novos projetos ($\Delta = +1,13$)}: Diante da oportunidade de iniciar um projeto a partir do zero, os profissionais experientes apresentam maior preferência pelo TypeScript ($4,56$). A preferência pelo JavaScript devido à simplicidade foi menor nesse grupo ($2,00$) do que entre iniciantes ($3,07$), diferença que deve ser interpretada como percepção da amostra.
     
-    \item \textbf{Projeção de Relevância Futura}: Há um consenso expressivo na comunidade pesquisada (média geral de $4,04$) de que o TypeScript continuará expandindo sua relevância e consolidando-se como o padrão dominante na engenharia de front-end.
+    \item \textbf{Projeção de relevância futura}: Os participantes apresentaram média de $4,04$ para a expectativa de expansão da relevância do TypeScript. Esse resultado descreve uma expectativa da amostra, não uma previsão objetiva do mercado.
 \end{enumerate}
 
 A Figura \ref{fig:divergencia} sintetiza as principais divergências perceptuais entre os dois grupos, ordenadas pela magnitude do delta ($\Delta = \text{Média}_{\text{Experientes}} - \text{Média}_{\text{Iniciantes}}$).
@@ -366,13 +366,13 @@ O Quadro \ref{qua:confronto} estabelece a síntese integrativa confrontando as p
 \rowcolor{gray!20}
 \textbf{Dimensão Teórica} & \textbf{Postulado da Literatura} & \textbf{Evidência Empírica da Pesquisa} \\
 \hline
-\textbf{Prevenção de Bugs e Robustez} & O sistema de tipos estáticos previne falhas silenciosas e erros de tipo antes da execução \cite{richards2017}. & \textbf{Validado}. Média global de $4,17$ concordando que JS gera mais bugs; $4,78$ entre experientes afirmando detecção precoce no TS. \\
+\textbf{Prevenção de bugs e robustez} & O sistema de tipos estáticos pode antecipar a identificação de determinados erros \cite{richards2017}. & \textbf{Percepção favorável}. Média global de $4,17$ para a afirmação de que JS gera mais bugs; $4,78$ entre experientes para detecção precoce no TS. \\
 \hline
-\textbf{Curva de Aprendizado e Transferência} & O conhecimento prévio em JS gera atrito conceitual e hábitos que dificultam a assimilação de TS \cite{shrestha2022}. & \textbf{Validado}. Iniciantes valorizam a flexibilidade do JS ($4,29$ em prototipagem) e sentem sobrecarga inicial com tipagem estrita de TS. \\
+\textbf{Curva de aprendizado e transferência} & O conhecimento prévio em JS pode gerar atrito conceitual na assimilação de TS \cite{shrestha2022}. & \textbf{Compatível}. Iniciantes valorizam a flexibilidade do JS ($4,29$ em prototipagem) e relatam maior custo inicial da tipagem. \\
 \hline
-\textbf{Qualidade de Código vs Complexidade} & Aplicações em TS apresentam melhor arquitetura, documentação viva e menor complexidade cognitiva \cite{bogner2022}. & \textbf{Validado}. Alta avaliação de legibilidade ($4,04$), padronização de equipes ($4,30$) e rejeição da alegação de verbosidade excessiva ($2,39$). \\
+\textbf{Qualidade de código versus complexidade} & Aplicações em TS podem apresentar melhor qualidade percebida sem necessariamente reduzir todos os bugs \cite{bogner2022}. & \textbf{Percepção compatível}. Avaliação favorável de legibilidade ($4,04$), padronização ($4,30$) e rejeição da alegação de verbosidade excessiva ($2,39$). \\
 \hline
-\textbf{Evolução e Tendência de Mercado} & Migração massiva da indústria impulsionada por suporte de frameworks e tooling \cite{george2020, stackoverflow2023}. & \textbf{Validado}. Suporte de ecossistema ($4,43$), tooling/IDEs ($4,56$ para experientes) e ampla projeção de relevância futura ($4,04$). \\
+\textbf{Evolução e tendência de mercado} & O suporte de frameworks e ferramentas favorece a adoção de TS \cite{george2020, stackoverflow2023}. & \textbf{Percepção favorável}. Suporte de ecossistema ($4,43$), ferramentas/IDEs ($4,56$ para experientes) e expectativa de relevância futura ($4,04$). \\
 \hline
 \end{tabular}
 \vspace{0.1cm}
@@ -380,4 +380,4 @@ O Quadro \ref{qua:confronto} estabelece a síntese integrativa confrontando as p
 \fonte{Elaborado pelo autor (2025).}
 \end{quadro}
 
-Em suma, os resultados revelam que a escolha entre JavaScript e TypeScript não é uma mera disputa estilística, mas sim uma decisão arquitetural fortemente condicionada pelo horizonte temporal do projeto e pela maturidade da equipe. Enquanto o JavaScript reina na prototipagem rápida e na introdução pedagógica, o TypeScript consolida-se como o padrão indispensável para a viabilidade, confiabilidade e sustentabilidade de sistemas web modernos de grande escala.
+Em suma, os resultados sugerem que a escolha entre JavaScript e TypeScript não é uma mera disputa estilística, mas uma decisão influenciada pelo horizonte temporal do projeto, pela experiência da equipe e pelas condições de integração. Na amostra analisada, o JavaScript foi associado à prototipagem e à introdução pedagógica, enquanto o TypeScript foi mais valorizado para manutenção, refatoração e coordenação em projetos maiores. Essa evidência não permite afirmar que uma das linguagens seja indispensável em todos os contextos.

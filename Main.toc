@@ -30,19 +30,19 @@
 \contentsline {section}{\numberline {4.5}Preferências Pessoais, Confiança e Perspectivas Futuras (Bloco D)}{22}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Análise Qualitativa dos Relatos Práticos da Indústria}{24}{section.4.6}%
 \contentsline {subsection}{\numberline {4.6.1}Eixo 1: Blindagem de Contratos de Dados e Integração de APIs}{24}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Eixo 2: Refatoração em Larga Escala e Propagação de Modificações}{25}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.2}Eixo 2: Refatoração em Larga Escala e Propagação de Modificações}{24}{subsection.4.6.2}%
 \contentsline {subsection}{\numberline {4.6.3}Eixo 3: Complexidade Inicial e Fricção com o Ecossistema Externo}{25}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Eixo 4: A Fronteira entre Compilação e Execução (Runtime vs Compile-time)}{26}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.4}Eixo 4: A Fronteira entre Compilação e Execução (Runtime vs Compile-time)}{25}{subsection.4.6.4}%
 \contentsline {section}{\numberline {4.7}Confronto Teórico-Empírico e Síntese da Discussão}{26}{section.4.7}%
-\contentsline {chapter}{\chapternumberline {5}Considerações Finais}{28}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Síntese dos Resultados e Atendimento aos Objetivos}{28}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Contribuições e Recomendações Práticas}{29}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Diretrizes para a Indústria e Gestores de Tecnologia}{29}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Diretrizes para o Ensino Acadêmico de Computação}{29}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5.3}Limitações da Pesquisa}{29}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Sugestões para Trabalhos Futuros}{30}{section.5.4}%
+\contentsline {chapter}{\chapternumberline {5}Considerações Finais}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Síntese dos Resultados e Atendimento aos Objetivos}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Contribuições e Recomendações Práticas}{28}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Diretrizes para a Indústria e Gestores de Tecnologia}{28}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Diretrizes para o Ensino Acadêmico de Computação}{28}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}Limitações da Pesquisa}{28}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Sugestões para Trabalhos Futuros}{29}{section.5.4}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{32}{section*.22}%
+\contentsline {chapter}{Refer\^encias}{31}{section*.22}%
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 

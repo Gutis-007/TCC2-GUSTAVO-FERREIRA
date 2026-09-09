@@ -8,14 +8,14 @@ Por meio de uma abordagem metodológica quantitativa e qualitativa baseada em le
 \section{Síntese dos Resultados e Atendimento aos Objetivos}
 \label{sec:conclusao_objetivos}
 
-Os resultados empíricos obtidos permitiram responder integralmente aos objetivos específicos delineados na introdução deste trabalho:
+Os resultados empíricos obtidos contribuíram para responder aos objetivos específicos delineados na introdução deste trabalho:
 
 \begin{enumerate}
-    \item \textbf{Análise comparativa das características técnicas}: A fundamentação teórica e a pesquisa empírica evidenciaram que o sistema de tipagem estática e opcional do TypeScript representa uma evolução estrutural sobre a tipagem dinâmica do JavaScript. Embora o JavaScript ofereça agilidade imediata e ausência de etapas formais de compilação, o TypeScript desloca a detecção de incompatibilidades de tipos do tempo de execução para o tempo de compilação, prevenindo falhas silenciosas em produção.
+    \item \textbf{Análise comparativa das características técnicas}: A fundamentação teórica e as percepções coletadas indicam que o sistema de tipagem estática e opcional do TypeScript desloca parte da detecção de incompatibilidades para o tempo de compilação. Esse mecanismo pode apoiar a manutenção, mas não impede falhas de lógica, contratos incorretos, configuração inadequada ou problemas de runtime.
     
-    \item \textbf{Identificação dos benefícios e desafios do TypeScript}: Os dados confirmaram que os principais benefícios do TypeScript residem na expressiva manutenibilidade a longo prazo (média de $4,44$ entre experientes), na prevenção de bugs (média global de $4,17$), na padronização arquitetural em equipes grandes (média de $4,30$) e na segurança durante refatorações críticas. Em contrapartida, os principais desafios identificados consistem no custo inicial de configuração de ambiente, no atrito com bibliotecas de terceiros desprovidas de tipagem adequada e na necessidade de disciplina técnica contínua.
+    \item \textbf{Identificação dos benefícios e desafios do TypeScript}: Na amostra, os participantes associaram o TypeScript à manutenibilidade a longo prazo (média de $4,44$ entre experientes), à detecção precoce de erros (média global de $4,17$), à padronização em equipes grandes (média de $4,30$) e ao apoio à refatoração. Também foram relatados custos de configuração, atrito com bibliotecas externas e necessidade de disciplina técnica contínua.
     
-    \item \textbf{Avaliação do impacto do nível de experiência}: Constatou-se uma nítida divergência perceptual condicionada pelo tempo de carreira e vivência em projetos de grande escala. Enquanto iniciantes valorizam a flexibilidade e a prototipagem rápida do JavaScript (média de $4,29$), os profissionais seniores experimentam um salto líquido de produtividade ao utilizar TypeScript (média de $4,22$, contra $2,93$ dos iniciantes), manifestando preferência hegemônica ($4,56$) pela sua utilização em novos projetos corporativos.
+    \item \textbf{Avaliação do impacto do nível de experiência}: Observou-se uma diferença de percepção entre os grupos. Iniciantes valorizaram a flexibilidade e a prototipagem rápida do JavaScript (média de $4,29$), enquanto experientes relataram maior produtividade com TypeScript (média de $4,22$, contra $2,93$ dos iniciantes) e maior preferência por seu uso em novos projetos (média de $4,56$). Como a amostra foi pequena e não probabilística, esses resultados não devem ser generalizados sem novas pesquisas.
 \end{enumerate}
 
 \section{Contribuições e Recomendações Práticas}
@@ -25,7 +25,7 @@ A partir dos achados desta pesquisa, formulam-se diretrizes aplicadas destinadas
 
 \subsection{Diretrizes para a Indústria e Gestores de Tecnologia}
 \begin{itemize}
-    \item \textbf{Projetos Corporativos e de Longo Prazo}: Recomenda-se a adoção mandatória de TypeScript para aplicações empresariais, sistemas colaborativos e bases de código com previsão de sustentação contínua, uma vez que a tipagem atua como documentação autoexecutável e barreira contra regressões.
+    \item \textbf{Projetos corporativos e de longo prazo}: Pode ser pertinente considerar TypeScript em aplicações empresariais, sistemas colaborativos e bases de código com previsão de sustentação contínua, avaliando equipe, legado, contratos externos, configuração e custo de migração. A adoção não deve ser tratada como obrigatória ou como garantia de ausência de regressões.
     \item \textbf{Prototipagem e MVPs}: O uso de JavaScript puro permanece altamente justificável em estágios exploratórios de produtos (\textit{Minimum Viable Products}), validações conceituais imediatas ou scripts utilitários onde a velocidade inicial sobrepõe-se à rigidez estrutural.
     \item \textbf{Estratégias de Migração Gradual}: Equipes que planejam migrar sistemas legados de JavaScript para TypeScript devem prever um investimento deliberado em capacitação inicial e adotar estratégias incrementais (ativando modos permissivos antes de aplicar regras estritas de tipagem), evitando o uso indiscriminado do tipo \texttt{any}.
 \end{itemize}
@@ -55,4 +55,4 @@ Para dar continuidade e aprofundamento à linha de pesquisa explorada neste trab
     \item \textbf{Estudo Longitudinal de Migração}: Acompanhar equipes de desenvolvimento durante o ciclo completo de migração de uma base legada em JavaScript para TypeScript, mensurando o tempo despendido, os tipos de erros encontrados e o impacto na velocidade de entrega (\textit{lead time}).
 \end{enumerate}
 
-Em conclusão, o TypeScript consolidou-se como um pilar fundamental da engenharia de front-end moderna, demonstrando que a imposição de tipos estáticos, longe de ser um obstáculo burocrático, constitui uma poderosa ferramenta de produtividade, governança e confiabilidade para a construção de sistemas sustentáveis.
+Em conclusão, os resultados indicam que o TypeScript é percebido favoravelmente por profissionais experientes e em contextos de manutenção e colaboração, mas seus benefícios dependem de configuração, contratos confiáveis, validações de runtime e práticas de equipe. A escolha entre JavaScript e TypeScript deve ser compreendida como uma decisão contextual, na qual ganhos potenciais de longo prazo são avaliados em conjunto com o investimento inicial e as limitações do ecossistema.
